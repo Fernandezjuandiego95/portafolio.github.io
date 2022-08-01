@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    height: 900px;
+    position:relative;
+    border-top: outset 3px #1e8305;
+    border-bottom: inset 3px #1e8305;
+    background: url('../images/wave.png'), url(../images/waverr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.div{
+    display: flex;
+    gap: 50px;
+    width: 90%;
+    height: 660px;
+    margin-left: 3.5rem;
+    margin-top: 13rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img{
+    display:inline-block;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    border: inset 4px #33ff00;
+    animation: marco 2.5s 2 linear 3s;
+}
+
+@keyframes marco {
+    from {
+      left: 0;
+    }
+    20%,
+    60%{
+        box-shadow:   0 0 35px #3dff02;
+    }
+    40%,
+    80%{
+        box-shadow:   0 0 20px #c8ff00;
+    }
+    to {
+      left: 100%;
+    }
+  }
+
+.img:hover{
+    width: 370px;
+    height: 320px;
+    border: none;
+    border-radius: 5px;
+    animation:none;
+    box-shadow: 12px 13px 9px 0px rgba(226,245,226,1);
+}
+
+.h2{
+    font-size: 2em;
+    font-family:  cursive;
+    color: #fefffe;
+    margin-left: 41%;
+    margin-top: 6.5rem;
+    position: absolute;
+    width: 12rem;
+    border-bottom: dotted 4px hwb(0 100% 0%);
+}
+
+.h2:hover{
+    border-bottom: dotted 6px #7931ff;
+}
+
+.zoom1{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    margin-left: -3.5rem;
+    margin-top: 10px;
+    border: none;
+    background-color: transparent;
+    background-image: url('../images/flechas/lupa.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+.zoom1:hover{
+    background-size: 48px;
+}
+.zoom1:active{
+    background-size: 40px;
+}
+
+/** Agregando la parte risponsive al sitio web, en el componente Certificados.jsx*/ 
+
+@media all and (max-width:1330px) {
+
+    .img{
+        width: 330px;
+        height: 270px;
+    }
+    .img:hover{
+        width: 335px;
+        height: 275px;
+    }
+}
+
+@media all and (max-width:1260px) {
+
+     .div{
+         width: 100%;
+         margin-left: 0px;
+     }
+}
+
+@media all and (max-width:1140px) {
+
+    .img{
+        width: 300px;
+        height: 250px;
+    }
+    .img:hover{
+        width: 305px;
+        height: 255px;
+    }
+  
+}
+
+@media all and (max-width:1060px) {
+
+   .section{
+       height: 1150px;
+   }
+  .div{
+      justify-content: space-around;
+      height: 890px;
+  }
+  .img{
+      width: 380px;
+      height: 250px;
+  }
+  .img:hover{
+    width: 385px;
+    height: 255px;
+}
+}
+
+@media all and (min-width:780px) and (max-width:920px) {
+
+   .img{
+    width: 340px;
+    height: 240px;
+    }
+    .img:hover{
+    width: 345px;
+    height: 245px;
+    }
+
+ }
+
+@media all and (min-width:501px) and (max-width:779px) {
+
+    .section{
+        height: 2300px;
+    }
+   .div{
+       height: 1980px;
+   }
+   .img{
+    width: 440px;
+    height: 280px;
+    }
+    .img:hover{
+    width: 445px;
+    height: 285px;
+    }
+ 
+}
+
+
+@media all and (max-width:500px) {
+
+    .section{
+        height: 2200px;
+    }
+   .div{
+       height: 1980px;
+   }
+   .img{
+    width: 300px;
+    height: 230px;
+    }
+    .img:hover{
+    width: 305px;
+    height: 235px;
+    }
+    .h2{
+margin-left: 32%;
+    }
+ 
+}

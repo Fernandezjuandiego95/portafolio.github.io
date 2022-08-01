@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div{
+    width: 100%;
+    height: 7rem;
+    position: absolute;
+    margin-top: -2rem;
+    background-color: rgb(136, 136, 136);
+    border-top: outset 5px rgb(200, 230, 255);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom: outset 7px rgb(116, 116, 116);
+}
+
+.h2{
+    margin-left: 7%;
+    padding-top: 1rem;
+    font-size: 1.5em;
+    font-family: cursive;
+    color: #002b00;
+    
+}
+
+.h3{
+    margin-left: 7%;
+    font-size: 1em;
+    font-family:  cursive;
+    color: #002b00;
+}
+
+
+.redes{
+  margin-top: -5.5rem;
+  position: absolute;
+  color: #02178b;
+  font-weight: bold;
+  animation: colorh5 10s infinite ease;
+}
+@keyframes colorh5 {
+    from{
+        color: #bb0000; 
+        font-size: 16px;
+    }
+}
+
+
+
+.divredes{
+    width:  24%;
+    height: 4.5rem;
+    border: outset 3px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 63%;
+    margin-top: -3rem;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5f6464;
+}
+.divredes:hover{
+    border: none;
+    border-bottom: inset 2px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    transition:all 2s .5s;
+    
+}
+
+
+.redesimg{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.ihub{
+    width: 60px;
+    height: 60px;
+    background-color: #00e600;
+    border-radius: 50%;
+    
+}
+.ihub:hover{
+    animation: cambiar 3s infinite;
+}
+@keyframes cambiar {
+    from{
+        background-color: #e60800;
+    }40%{
+        background-color: #e6f702;
+    }60%{
+        background-color: #0051e6;
+    }
+    to{
+        background-color: #00e600;
+    }
+}
+
+.iface{
+    width: 60px;
+    height: 60px;
+    background-color: #003de6;
+    border-radius: 50%;
+}
+.iface:hover{
+    animation: cambiarface 3s infinite;
+}
+@keyframes cambiarface {
+    from{
+        background-color: #e60800;
+    }40%{
+        background-color: #f700ff;
+    }60%{
+        background-color: #00ffea;
+    }
+    to{
+        background-color: #003de6;
+    }
+}
+
+.iwht{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #029209;
+}
+.iwht:hover{
+    animation: cambiarwh 3s infinite;
+}
+@keyframes cambiarwh {
+    from{
+        background-color: #09ff00;
+    }40%{
+        background-color: #9dff00;
+    }60%{
+        background-color: #68bd08;
+    }
+    to{
+        background-color: #029209;
+    }
+}
+
+
+.copy{
+    font-family:cursive;
+    font-size: 1.4rem;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+/** Agregando la parte risponsive al sitio web, en el componente Footer.jsx*/  
+
+@media all and (max-width: 1000px) {
+    
+    .h2{
+        font-size: 1.2rem;
+    }
+    .ihub,.iface,.iwht, .redesimg{
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media all and (min-width:590px) and (max-width: 749px) {
+    
+    .h2, .copy{
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+    .h2{
+        margin-top: 5px;
+    }
+    .divredes{
+
+        width: 30%;
+    }
+ 
+}
+
+@media all and (min-width:501px) and (max-width: 589px) {
+    
+    .h2, .copy{
+        font-size: .9rem;
+        margin-top: 0px;
+    }
+    .h2{
+        margin-top: 10px;
+    }
+    .divredes{
+        width: 30%;
+    }
+    .ihub,.iface,.iwht, .redesimg{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+@media all and (max-width: 500px) {
+    
+    .h2, .copy, .h3{
+        font-size: .8rem;
+        margin-top: 0px;
+    }
+    .h2{
+        margin-top: 30px;
+    }
+    .divredes{
+        width: 33%;
+        height: 4rem;
+        margin-top: -3.5;
+        margin-left: 60%
+    }
+    .ihub,.iface,.iwht, .redesimg{
+        width: 36px;
+        height: 36px;
+    }
+
+}
+

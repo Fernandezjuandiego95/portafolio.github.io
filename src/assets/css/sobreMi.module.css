@@ -1,0 +1,804 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    height: 800px;
+    position:relative;
+    border: solid 1px transparent;
+    border-top: outset 3px #1e8305;
+    border-bottom: inset 2px #1e8305;
+    background-image:url('../images/Yoda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.divderecho{
+    background: #ffffff;
+    padding: 80px 30px;
+    margin-top: 12rem;
+    margin-right: 2rem;
+    height: 500px;
+    width: 50%;
+    border-radius: 10px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 15%;
+   
+    
+}
+
+.divizquierdo{
+    height: 600px;
+    width: 46%;
+    position: relative;
+    margin-top: 12rem; 
+}
+
+.h2{
+    font-size: 2em;
+    font-family: cursive;
+    color: #fefffe;
+    margin-left: 44%;
+    margin-top: 6.5rem;
+    position: absolute;
+    width: 9rem;
+    border-bottom: dotted 4px #ffffff;
+}
+
+.h2:hover{
+    border-bottom: dotted 5px #038603;
+}
+
+.h3{
+    font-size: 1.7em;
+    font-family: cursive;
+    color: #fefffe;
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    animation: colormul 5s infinite linear;
+}
+@keyframes colormul {
+    from{
+        text-shadow:  0 0 20px #d63e10, 0 0 30px #ff0000, 0 0 40px #ff0000,
+        0 0 50px #ff0000;
+        transition: text-shadow 1s;
+    }40%{
+        text-shadow: 0 0 20px #1f8300, 0 0 30px #147201, 0 0 40px #168300,
+        0 0 50px #017001;
+    }60%{
+        text-shadow:  0 0 20px #2600ff, 0 0 30px #1a05d8, 0 0 40px #0805d8,
+        0 0 50px #2600ff;
+    }
+    to{
+        text-shadow: 0 0 20px #fcdaed, 0 0 30px #fad4ef, 0 0 40px #ffd8f0,
+        0 0 50px #ffc5ec;
+    }
+  
+}
+
+
+.imgcuadrado{
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2rem;
+    animation: imagescuadradas 5s  infinite linear;
+}
+
+.imgrectangulo{
+    width: 4rem;
+    height: 2.5rem;
+    margin-left: 2rem;
+    animation: imagesrectangular 5s  infinite linear;
+}
+
+.imghoriz{
+    width: 2.5rem;
+    height: 3rem;
+    margin-left: 2rem;
+    animation: imageshorizontal 5s infinite linear;
+}
+@keyframes imagescuadradas {
+    from{
+        width: 3rem;
+        height: 3rem;
+    }20%,50%,80%{
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    to{
+        width: 3rem;
+        height: 3rem;
+    }
+}
+@keyframes imagesrectangular {
+    from{
+        width: 4rem;
+        height: 2.5rem;
+    }20%,50%,80%{
+        width: 5rem;
+        height: 3rem;
+    }
+    to{
+        width: 4rem;
+        height: 2.5rem;
+    }
+}
+@keyframes imageshorizontal {
+    from{
+        width: 2.5rem;
+        height: 3rem;
+    }20%,50%,80%{
+        width:  3rem;
+        height: 3.5rem;
+    }
+    to{
+        width: 2.5rem;
+        height: 3rem;
+    }
+}
+
+
+.fondopc{
+     width: 95%;
+     height: 60%;
+     margin: auto;
+     margin-top: 3rem;
+     background-image: url('../images/fondo.png');
+     background-repeat: no-repeat;
+     background-size: 36rem;
+     position: absolute;
+}
+
+.divcaja{
+    width: 85%;
+    height: 65%;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.yo{
+    width: 10rem;
+    height: 10rem;
+    margin: -2rem auto;
+    border: outset 3px #b4b4b4;
+    border-radius: 50%;
+    background-color: rgb(196, 196, 196);
+    background-image: url('../images/yo.jpg');
+    background-size: 6.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.parrafos{
+
+    margin-top: 8rem;
+    height: 11rem;
+}
+
+.span{
+    font-family: cursive;
+    font-size: 16px;
+    position: relative;
+}
+
+.mano{
+    width: 48px;
+    position: absolute;
+    margin-left: 11rem;
+    margin-top: 1.7rem;
+    animation: mano 4s 2s infinite linear;
+}
+@keyframes mano {
+    from{
+        transform: rotate(-10deg);
+    }30%{
+        transform: rotate(10deg);
+    }50%{
+        transform: rotate(-10deg);
+    }75%{
+        transform: rotate(10deg);
+    }
+    to{
+        transform: rotate(-10deg);
+    }
+}
+
+.hola{
+    font-family: cursive;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 2.7rem;
+    margin-left: 7rem;
+}
+
+.nombre{
+    font-family: cursive;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 2.6rem;
+    margin-left: 15rem;
+}
+
+/** Agregando la parte risponsive al sitio web, en el componente SobreMi.jsx*/  
+
+@media all and (max-width:1360px) {
+
+    .fondopc{
+        width: 100%;
+        background-size: 34rem;
+    }
+    .imgcuadrado, .imgrectangulo, .imghoriz{
+        margin-left: 1.7rem;
+    }
+    .divcaja{
+        width: 80%;
+    }
+  }
+
+  @media all and (max-width:1280px) {
+
+    .divderecho{
+        height: 520px;
+    }
+    .fondopc{
+        width: 100%;
+        background-size: 32rem;
+    }
+    .imgcuadrado, .imgrectangulo, .imghoriz{
+        margin-left: 1.4rem;
+    }
+    .divcaja{
+        width: 80%;
+    }
+  }
+
+  @media all and (max-width:1210px) {
+
+    .divderecho{
+        height: 520px;
+    }
+    .fondopc{
+        width: 100%;
+        background-size: 30rem;
+    }
+    .imgcuadrado, .imgrectangulo, .imghoriz{
+        margin-left: 1.1rem;
+    }
+    .divcaja{
+        width: 80%;
+        height: 55%;
+        margin-top: 2rem;
+    }
+    .h3{
+        font-size: 1.4rem;
+        margin-left: -3rem;
+    }
+  }
+
+  @media all and (max-width:1140px) {
+
+
+    .section{
+        height: 900px;
+    }
+    .divderecho{
+        border-top-left-radius: 15%;
+        border-bottom-right-radius: 10%;
+        height: 560px;
+    }
+    .fondopc{
+        width: 100%;
+        margin-left: 2rem;
+        background-size: 25rem;
+    }
+    .imgcuadrado{
+        width: 2rem;
+        height: 2rem;
+        animation: imagescuadradas 5s  infinite linear;
+        margin-left: 1rem;
+    }
+    .imgrectangulo{
+        width: 3rem;
+        height: 2rem;
+        animation: imagesrectangular 5s  infinite linear;
+        margin-left: 1rem;
+    }
+    .imghoriz{
+        width: 1.8rem;
+        height: 2rem;
+        animation: imageshorizontal 5s  infinite linear;
+        margin-left: 1rem;
+    }
+    @keyframes imagescuadradas {
+        from{
+            width: 2rem;
+            height: 2rem;
+        }20%,50%,80%{
+            width: 2.3rem;
+            height: 2.3rem;
+        }
+        to{
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+    @keyframes imagesrectangular {
+        from{
+            width: 3rem;
+            height: 2rem;
+        }20%,50%,80%{
+            width: 3.7rem;
+            height: 2.5rem;
+        }
+        to{
+            width: 3rem;
+            height: 2rem;
+        }
+    }
+    @keyframes imageshorizontal {
+        from{
+            width: 1.8rem;
+            height: 2rem;
+        }20%,50%,80%{
+            width:  2rem;
+            height: 2.3rem;
+        }
+        to{
+            width: 1.8rem;
+            height: 2rem;
+        }
+    }
+    .divcaja{
+        width: 70%;
+        height: 50%;
+        margin-top: 1.7rem;
+        margin-left: .6rem;
+    }
+    .mano{
+        margin-left: 6rem;
+    }
+    .hola{
+        margin-left: 2rem;
+    }
+    
+    .nombre{
+        margin-left: 10rem;
+    }
+
+  }
+
+
+  @media all and  (min-width:890px) and (max-width:999px) {
+ 
+    .fondopc{
+        width: 100%;
+        margin-left: 1rem;
+        background-size: 20rem;
+    }
+    .imgcuadrado{
+        margin-left: .8rem;
+    }
+    .imgrectangulo{
+        margin-left: .8rem;
+    }
+    .imghoriz{
+        margin-left: .8rem;
+    }
+
+    .divcaja{
+        width: 75%;
+        height: 50%;
+        margin-top: 1.3rem;
+        margin-left: -1rem;
+    }
+    .mano{
+        margin-left: 5rem;
+    }
+    .hola{
+        margin-left: 1rem;
+    }
+    
+    .nombre{
+        margin-left: 9rem;
+    }
+    
+  }
+
+
+  @media all and  (min-width:790px) and (max-width:889px) {
+ 
+     .divderecho{
+         height: 610px;
+     }
+    .fondopc{
+        width: 100%;
+        margin-left: 1rem;
+        background-size: 18rem;
+    }
+    .imgcuadrado{
+        width: 1.7rem;
+        height: 1.7rem;
+        animation: imagescuadradas 5s  infinite linear;
+        margin-left: .9rem;
+    }
+    .imgrectangulo{
+        width: 2.7rem;
+        height: 1.7rem;
+        animation: imagesrectangular 5s  infinite linear;
+        margin-left: .9rem;
+    }
+    .imghoriz{
+        width: 1.5rem;
+        height: 1.8rem;
+        animation: imageshorizontal 5s  infinite linear;
+        margin-left: .9rem;
+    }
+    @keyframes imagescuadradas {
+        from{
+            width: 1.7rem;
+            height: 1.7rem;
+        }20%,50%,80%{
+            width: 2rem;
+            height: 2rem;
+        }
+        to{
+            width: 1.7rem;
+            height: 1.7rem;
+        }
+    }
+    @keyframes imagesrectangular {
+        from{
+            width: 2.7rem;
+            height: 1.7rem;
+        }20%,50%,80%{
+            width: 3.4rem;
+            height: 2rem;
+        }
+        to{
+            width: 2.7rem;
+            height: 1.7rem;
+        }
+    }
+    @keyframes imageshorizontal {
+        from{
+            width: 1.5rem;
+            height: 1.8rem;
+        }20%,50%,80%{
+            width:  1.7rem;
+            height: 2rem;
+        }
+        to{
+            width: 1.5rem;
+            height: 1.8rem;
+        }
+    }
+    .divcaja{
+        width: 80%;
+        height: 45%;
+        margin-top: 1.2rem;
+        margin-left: -1rem;
+       
+    }
+    .mano{
+        margin-left: 11rem;
+    }
+    .hola{
+        margin-left: 7rem;
+    }
+    
+    .nombre{
+        margin-left: 2rem;
+        margin-top: 5rem;
+    }
+    .parrafos{
+        margin-top: 9rem;
+    }
+    .h3{
+        font-size: 1.2rem;
+        margin-left: -2rem;
+    }
+  }
+
+  @media all and  (min-width:571px) and (max-width:789px) {
+    .section{
+        height: 1200px;
+        display: block;
+    }
+    .divderecho{
+        width: 90%;
+        height: 580px;
+        margin-left: 1.5rem;
+        position: absolute;
+    }
+    .divizquierdo{
+        margin-top: 50rem;
+        margin-left: 1.5rem;
+        width: 90%;
+        height: 360px;
+        position: absolute;
+    }
+   .fondopc{
+       margin-top: 2rem;
+       margin-left: 5rem;
+       height: 300px;
+       background-size: 28rem;
+   }
+   .divcaja{
+       width:60%;
+       height: 150px;
+       margin-top: 2.5rem;
+   }
+   .mano{
+       margin-left: 7rem;
+   }
+   .hola{
+       margin-left: 3rem;
+   }
+   .nombre{
+       margin-left: 3rem;
+       margin-top: 5rem;
+   }
+   .parrafos{
+       margin-top: 9rem;
+   }
+   .h3{
+       font-size: 1.4rem;
+       margin-top: 0;
+   }
+
+   .imgcuadrado{
+    width: 3rem;
+    height: 3rem;
+    animation: none;
+}
+.imgrectangulo{
+    width: 6rem;
+    height: 3.5rem;
+    animation:none;
+}
+.imghoriz{
+    width: 2.5rem;
+    height: 3rem;
+    animation: none;
+}
+
+ }
+
+
+
+  @media all and  (min-width:501px) and (max-width:570px) {
+    .section{
+        height: 1200px;
+        display: block;
+    }
+    .divderecho{
+        width: 90%;
+        height: 580px;
+        margin-left: 1.5rem;
+        position: absolute;
+    }
+    .divizquierdo{
+        margin-top: 50rem;
+        margin-left: 1.5rem;
+        width: 90%;
+        height: 360px;
+        position: absolute;
+    }
+   .fondopc{
+       width: 100%;
+       height: 300px;
+       margin-left: 0;
+       margin-top: 2rem;
+       background-size: 28rem;
+   }
+   .divcaja{
+       width: 92%;
+       height: 65%;
+       margin-top:2rem;
+       margin-left: -1rem;
+   }
+   .mano{
+       margin-left: 14rem;
+   }
+   .hola{
+       margin-left: 10rem;
+   }
+   .nombre{
+       margin-left: 6rem;
+       margin-top: 5rem;
+   }
+   .parrafos{
+       margin-top: 9rem;
+   }
+   .h3{
+       font-size: 1.4rem;
+       margin-top: 0;
+   }
+
+   .imgcuadrado{
+    width: 2rem;
+    height: 2rem;
+    animation: imagescuadradas 5s  infinite linear;
+    margin-left: 3rem;
+}
+.imgrectangulo{
+    width: 3rem;
+    height: 2rem;
+    animation: imagesrectangular 5s  infinite linear;
+    margin-left: 3rem;
+}
+.imghoriz{
+    width: 1.8rem;
+    height: 2rem;
+    animation: imageshorizontal 5s  infinite linear;
+    margin-left: 2rem;
+}
+@keyframes imagescuadradas {
+    from{
+        width: 2rem;
+        height: 2rem;
+    }20%,50%,80%{
+        width: 2.3rem;
+        height: 2.3rem;
+    }
+    to{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@keyframes imagesrectangular {
+    from{
+        width: 3rem;
+        height: 2rem;
+    }20%,50%,80%{
+        width: 3.7rem;
+        height: 2.5rem;
+    }
+    to{
+        width: 3rem;
+        height: 2rem;
+    }
+}
+@keyframes imageshorizontal {
+    from{
+        width: 1.8rem;
+        height: 2rem;
+    }20%,50%,80%{
+        width:  2rem;
+        height: 2.3rem;
+    }
+    to{
+        width: 1.8rem;
+        height: 2rem;
+    }
+}
+ }
+
+
+
+
+
+
+
+ @media all and (max-width:500px) {
+    .section{
+        height: 1250px;
+        display: block;
+    }
+    .divderecho{
+        width: 90%;
+        height: 660px;
+        margin-left: 1.5rem;
+        position: absolute;
+    }
+    .divizquierdo{
+        margin-top: 55rem;
+        margin-left: 1.5rem;
+        width: 90%;
+        height: 360px;
+        position: absolute;
+    }
+   .fondopc{
+       width: 100%;
+       height: 300px;
+       margin-left: 2rem;
+       margin-top: 2rem;
+       background-size: 22rem;
+   }
+   .divcaja{
+       width: 77%;
+       height: 50%;
+       margin-top:1rem;
+       margin-left: -1.5rem;
+
+   }
+   .mano{
+       margin-left: 7rem;
+   }
+   .hola{
+       margin-left: 3rem;
+   }
+   .nombre{
+       margin-left: 3rem;
+       margin-top: 5rem;
+   }
+   .parrafos{
+       margin-top: 9rem;
+   }
+   .h3{
+       font-size: 1.4rem;
+       margin-top: 0;
+   }
+
+   .imgcuadrado{
+    width: 1.5rem;
+    height: 1.5rem;
+    animation: imagescuadradas 5s  infinite linear;
+    margin-left: 2rem;
+}
+.imgrectangulo{
+    width: 3rem;
+    height: 2rem;
+    animation: imagesrectangular 5s  infinite linear;
+    margin-left: 1rem;
+}
+.imghoriz{
+    width: 1.8rem;
+    height: 2rem;
+    animation: imageshorizontal 5s  infinite linear;
+    margin-left: 2rem;
+}
+@keyframes imagescuadradas {
+    from{
+        width: 1.5rem;
+        height: 1.5rem;
+    }20%,50%,80%{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    to{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+}
+@keyframes imagesrectangular {
+    from{
+        width: 3rem;
+        height: 2rem;
+    }20%,50%,80%{
+        width: 3.7rem;
+        height: 2.5rem;
+    }
+    to{
+        width: 3rem;
+        height: 2rem;
+    }
+}
+@keyframes imageshorizontal {
+    from{
+        width: 1.8rem;
+        height: 2rem;
+    }20%,50%,80%{
+        width:  2rem;
+        height: 2.3rem;
+    }
+    to{
+        width: 1.8rem;
+        height: 2rem;
+    }
+}
+ }

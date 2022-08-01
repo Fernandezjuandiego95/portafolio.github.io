@@ -1,0 +1,576 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --color:#fd1605;
+}
+
+.div{
+    position:relative;
+    background-image: url(../images/vs.png);
+    background-size: cover;
+    width: 100%;
+    height:680px;
+    margin-top: -1rem;
+    border-bottom: inset 3px #1e8305;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: cursive;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    padding: auto;
+    color: #fefffe;
+    width: 28%;
+    position:fixed;
+}
+h1:hover{
+     text-shadow: 0 0 10px #2ba506, 0 0 20px #2ba506, 0 0 30px #28d805, 0 0 40px #28d805,
+     0 0 50px #fbff00, 0 0 60px #fbff00;
+     transition: text-shadow 1.5s ; 
+}
+
+
+nav{
+    margin-left: 40%;
+    margin-top: 1rem;
+    position:fixed;
+ }
+
+li{
+   display: inline-block;
+   list-style: none;
+   position: relative;
+   padding: 1.3rem ;
+}
+
+ul li a{
+    position: relative;
+    background: #019712;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: cursive;
+    font-size: .8em;
+    letter-spacing: 0.1em;
+    padding: 10px 15px;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+ul li a:hover{
+    letter-spacing: 0.2em;
+    background: var(--color);
+    color:#0e0e0d ;
+    box-shadow: 0 0 35px var(--color);
+    border-radius: 10px;
+}
+
+ul li a:active{
+    letter-spacing: 0.1em;
+    padding: 5px 10px;
+    background: #ffffff;
+    box-shadow: 0 0 30px #ffffff;
+}
+
+ul li a::before{
+	content: '';
+	position: absolute;
+	inset: 2px;
+	background: #0cdb24;
+    border-radius: 10px;
+}
+
+ul li a span{
+	position: relative;
+	z-index: 1;
+}
+ul li a i{
+	position: absolute;
+	inset: 0;
+	display: block;
+}
+ul li a i::before{
+	content: '';
+	position: absolute;
+	border: 2px solid var(--color);
+	top: -3.5px;
+	left: 80%;
+	width: 10px;
+	height: 5px;
+	transform: translateX(-50%);
+	background: #0cdb24;
+	transition: 0.5s;
+
+}
+ul li a:hover i::before{
+	width: 20px;
+	left: 20%;
+}
+
+ul li a i::after{
+	content: '';
+	position: absolute;
+	border: 2px solid var(--color);
+	bottom: -3.5px;
+	left: 20%;
+	width: 10px;
+	height: 5px;
+	transform: translateX(-50%);
+	background: #0cdb24;
+	transition: 0.5s;
+}
+ul li a:hover i::after{
+	width: 20px;
+	left: 80%;
+}
+
+ul li a:active i::before{
+     content: none;
+    
+}
+ul li a:active i::after{
+    content: none;
+    
+}
+
+.sbr:hover{
+    background: #c40183;
+    box-shadow: 0 0 35px #c40183;
+    
+}
+.sbr i::before{
+	border: 2px solid #c40183;
+}
+.sbr i::after{
+	border: 2px solid #c40183;
+}
+.sbr:active{
+    letter-spacing: 0.1em;
+    padding: 5px 10px;
+    background: #ffffff;
+    box-shadow: 0 0 30px #ffffff;
+}
+
+.pry:hover{
+    background: #640092;
+    box-shadow: 0 0 35px #640092;
+}
+.pry i::before{
+	border: 2px solid #640092;
+}
+.pry i::after{
+	border: 2px solid #640092;
+}
+.pry:active{
+    letter-spacing: 0.1em;
+    padding: 5px 10px;
+    background: #ffffff;
+    box-shadow: 0 0 30px #ffffff;
+}
+
+.cert:hover{
+    background: #ff8800;
+    box-shadow: 0 0 35px #ff8800;
+}
+.cert i::before{
+	border: 2px solid #ff8800;
+}
+.cert i::after{
+	border: 2px solid #ff8800;
+}
+.cert:active{
+    letter-spacing: 0.1em;
+    padding: 5px 10px;
+    background: #ffffff;
+    box-shadow: 0 0 30px #ffffff;
+}
+
+.cont:hover{
+    background: #fbff00d5;
+    box-shadow: 0 0 35px #fbff00d5;
+}
+.cont i::before{
+	border: 2px solid #fbff00d5;
+}
+.cont i::after{
+	border: 2px solid #fbff00d5;
+}
+.cont:active{
+    letter-spacing: 0.1em;
+    padding: 5px 10px;
+    background: #ffffff;
+    box-shadow: 0 0 30px #ffffff;
+}
+
+
+section p{
+    font-family: cursive;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 28%;
+    margin-top: 16rem;
+   
+}
+
+
+.opacidad{
+    margin-top: .5rem;
+    width: 100%;
+    height: 6rem;
+    background-color: #04be1a99;
+    position:fixed;
+    z-index: 1;
+    border-bottom: solid 3px #0f5517;
+}
+.opacidad:hover{
+    box-shadow: 0 15px 45px #5f6b60;
+    background-color: #99a19679;
+}
+
+.header{
+    margin-top: .5rem;
+    width: 100%;
+    height: 6.4rem;
+    background-color: #08ea23;
+    position:fixed;
+    z-index: 1;
+}
+
+.pcaja{
+  width:26.5%;
+  margin-top: 20rem;
+  position:absolute;
+}
+
+.h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-top: .5rem;
+    position: relative;
+}
+
+.escribir{
+    position: absolute;
+    right:  0px;
+    width: 0;
+    height: 1.7rem;
+    margin-top: .3rem;
+    background-color: #247b2e;
+    background-size: cover;
+    border-left: solid 1px #FFFFFF;
+    animation: cubrir 5s  steps(35);
+}
+@keyframes cubrir {
+    from{
+     
+        width: 100%;
+    }
+    to{
+
+        width: 0;
+    }
+}
+
+
+.ilustracion{
+  width: 300px;
+  height: 300px;
+  margin-left: 73%;
+  margin-top: 8rem;
+}
+
+/** Agregando la parte risponsive al sitio web, en el componente navar.jsx*/  
+
+@media all and (max-width:1350px) {
+
+
+  h1{
+      font-size: 2.5rem;
+  }
+  nav{
+   margin-left: 35%;
+ }
+ .h3{
+     font-size: 1rem;
+ }  
+ .pcaja{
+     width: 21%;
+ } 
+}
+
+@media all and (max-width:1310px){
+    .h3{
+        font-size: .8rem;
+    }
+    .pcaja{
+        width: 17%;
+    }
+    .escribir{
+      height: 1rem;
+      margin-top: .2rem;
+    }
+}
+
+@media all and (max-width:1300px){
+
+   .pcaja{
+       width:27%;
+   }
+   .escribir{
+       animation: none;
+       border-left: none;
+   }
+}
+
+@media all and  (min-width:1101px) and (max-width:1250px){
+
+    h1{
+      
+      margin-left: 1rem;
+      font-size: 2rem;
+    }
+    section p{
+      font-size: 2.5rem;
+    }
+    .ilustracion{
+      width: 250px;
+      height: 250px;
+    
+    }
+    .div{
+      height:660px;
+    }
+    nav{
+      margin-left: 30%;
+     
+    }
+    li{
+        padding: 1.1rem;
+    }
+      ul li a{
+          font-size: .8rem;
+          padding: 10px 13px;
+          border-radius: 8px;
+      }
+      ul li a:hover{
+  
+          border-radius: 8px;
+      }
+      ul li a::before{
+          border-radius: 8px;
+      }
+}
+
+
+@media all and  (min-width:1000px) and (max-width:1100px) {
+
+    h1{
+        margin-left: .5rem;
+        font-size: 2rem;
+      }
+     section p{
+        font-size: 2.3rem;
+      }
+      .ilustracion{
+        width: 240px;
+        height: 240px;
+      }
+      nav{
+         
+        margin-top: 1.5rem;
+        margin-left: 26%;  
+    }
+    li{
+        padding: .8rem;
+    }
+
+   }
+   
+
+
+@media all and  (min-width:680px) and (max-width:999px) {
+
+  h1{
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    width: 16rem;
+  }
+  section p{
+    font-size: 2rem;
+    margin-left: 25%;
+ 
+  }
+  .ilustracion{
+    width: 200px;
+    height: 200px;
+   margin-top: 12rem;
+  }
+  .div{
+    height:660px;
+  }
+  .pcaja{
+    width: 30%;
+  }
+
+/**Botones de la barra de navegacion ***/
+  nav{
+      margin-left: 45%;
+      width: 25rem;
+  }
+  li{
+      padding: 1.3rem;
+  }
+    ul li a{
+        font-size: .7rem;
+        padding: 8px 12px;
+        border-radius: 7px;
+    }
+    ul li a:hover{
+
+        border-radius: 8px;
+    }
+    ul li a::before{
+        border-radius: 7px;
+    }
+/*********Fin***********/
+    .header{
+        height: 10rem;
+    }
+
+    .opacidad{
+        height: 9.5rem;
+    }
+ }
+ 
+
+ @media all and  (min-width:501px) and (max-width:679px) {
+
+    h1{
+        margin-top: 2rem;
+        margin-left: .5rem;
+        font-size: 1.2rem;
+        width: 5rem;
+        
+      }
+      section p{
+        font-size: 1.5rem;
+        margin-left: 5%;
+     
+      }
+      .ilustracion{
+        width: 180px;
+        height: 180px;
+        margin-top: 11rem;
+        margin-left: 60%;
+      }
+      .pcaja{
+        width:33%;
+        margin-top: 18rem;
+       
+      }
+      .h3{
+          font-size: .6rem;
+      }
+      .escribir{
+          height: 1rem;
+          margin-top: .1rem;
+          
+      }
+
+    /**Botones de la barra de navegacion ***/
+    nav{
+        margin-left: 30%;
+        width: 25rem;
+    }
+    li{
+        padding: .9rem;
+    }
+    ul li a{
+        font-size: .6rem;
+        padding: 7px 11px;
+        border-radius: 6px;
+    }
+    ul li a:hover{
+
+        border-radius: 6px;
+    }
+    ul li a::before{
+        border-radius: 6px;
+    }
+    /*********Fin***********/
+    .header{
+        height: 8rem;
+    }
+
+    .opacidad{
+        height: 7.5rem;
+    }
+
+ }
+
+ @media all and (max-width:500px) {
+
+    h1{
+        margin-top: 2rem;
+        margin-left: .7rem;
+        font-size: 1.2rem;
+        width: 5rem;
+        
+      }
+     section p{
+        font-size: 1.1rem;
+        margin-left: 5%;
+     
+      }
+      .ilustracion{
+        width: 160px;
+        height: 160px;
+        margin-top: 11rem;
+        margin-left: 55%;
+      }
+      .pcaja{
+        width:33%;
+        margin-top: 18rem;
+       
+      }
+      .h3{
+          font-size: .5rem;
+      }
+     
+
+    /**Botones de la barra de navegacion ***/
+    nav{
+        margin-left: 30%;
+        width: 25rem;
+    }
+    li{
+        padding: .7rem;
+    }
+    ul li a{
+        font-size: .6rem;
+        padding: 7px 11px;
+        border-radius: 6px;
+    }
+    ul li a:hover{
+
+        border-radius: 6px;
+    }
+    ul li a::before{
+        border-radius: 6px;
+    }
+    /*********Fin***********/
+    .header{
+        height: 7.5rem;
+    }
+
+    .opacidad{
+        height: 7rem;
+    }
+ }
