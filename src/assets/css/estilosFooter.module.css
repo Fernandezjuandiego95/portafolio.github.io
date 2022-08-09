@@ -68,7 +68,6 @@
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
     transition:all 2s .5s;
-    
 }
 
 
@@ -177,15 +176,20 @@
         margin-top: 5px;
     }
     .divredes{
-
         width: 30%;
     }
- 
+    .h2,.copy,.h3{
+        font-family: 'lato';
+    }
+    .redes{
+        color: transparent;
+        animation: none;
+    }
 }
 
 @media all and (min-width:501px) and (max-width: 589px) {
     
-    .h2, .copy{
+    .h2,.copy{
         font-size: .9rem;
         margin-top: 0px;
     }
@@ -199,6 +203,13 @@
         width: 40px;
         height: 40px;
     }
+    .h2,.copy,.h3{
+        font-family: 'lato';
+    }
+    .redes{
+        color: transparent;
+        animation: none;
+    }
 
 }
 
@@ -206,6 +217,7 @@
     
     .h2, .copy, .h3{
         font-size: .8rem;
+        font-family: 'lato';
         margin-top: 0px;
     }
     .h2{
@@ -215,12 +227,31 @@
         width: 33%;
         height: 4rem;
         margin-top: -3.5;
-        margin-left: 60%
+        margin-left: 60%;
+        background-color:transparent;
+        border: none;
+        border-bottom: inset 2px;
+    }
+    .divredes:hover{
+        border:none;
+        border-bottom: inset 2px;
+        border-top-left-radius: none;
+        border-top-right-radius: none;
+        transition: none;
     }
     .ihub,.iface,.iwht, .redesimg{
         width: 36px;
         height: 36px;
     }
-
+    .redes{
+        color: transparent;
+        animation: none;
+    }
 }
 
+@media all and (max-width: 400px) {
+    
+    .divredes{
+        width: 36%;
+    }
+}
