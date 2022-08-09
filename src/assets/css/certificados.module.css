@@ -178,6 +178,10 @@
     width: 445px;
     height: 285px;
     }
+    .h2,.h2:hover{
+        border: none;
+        font-family: 'lato';
+    }
  
 }
 
@@ -198,8 +202,17 @@
     width: 305px;
     height: 235px;
     }
-    .h2{
-margin-left: 32%;
+    .h2,.h2:hover{
+      margin-left: 32%;
+      border: none;
+      font-family: 'lato';
     }
  
+}
+
+@media all and (max-width:400px) {
+
+    .h2,.h2:hover{
+      margin-left: 27%;
+    }
 }
