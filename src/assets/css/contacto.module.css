@@ -320,8 +320,10 @@ input:focus{
 
 @media all and (min-width:501px) and (max-width:749px) {
 
-    h2{
-        margin-top: 7rem;
+    .h2,.h2:hover{
+        margin-top: 8rem;
+        border: none;
+        font-family: 'lato';
     }
     .section{
         height: 1100px;
@@ -348,6 +350,7 @@ input:focus{
     }
     .pcont,.pcont2,.pnum,.h4{
         margin-left: 7rem;
+        font-family: 'lato';
     }
     .divmensaje{
         width: 100%;
@@ -356,10 +359,15 @@ input:focus{
     }
     .input{
         width: 40%;
+        font-family: 'lato';
     }
 
     .btn{
         margin-bottom: 15px;
+        font-family: 'lato';
+    }
+    .asunto,.area{
+        font-family: 'lato';
     }
 }
 
@@ -392,6 +400,7 @@ input:focus{
     }
     .pcont,.pcont2,.pnum,.h4{
         margin-left: 5rem;
+        font-family: 'lato';
     }
     .pcont,.pcont2{
         font-size: .8rem;
@@ -400,13 +409,39 @@ input:focus{
         width: 90%;
         margin-top: 2rem;
         margin-left: .8rem;
+        height: 800px;
     }
     .input{
         width: 40%;
+        font-family: 'lato';
     }
-
     .btn{
         margin-bottom: 15px;
         margin-left: 37%;
+        font-family: 'lato';
+    }
+    .h2,.h2:hover{
+        margin-left: 32%;
+        border: none;
+        font-family: 'lato';
+      }
+      .asunto,.area{
+        font-family: 'lato';
+    }
+}
+
+@media all and (max-width:400px) {
+
+    .h2,.h2:hover{
+      margin-left: 27%;
+    }
+    .divmensaje{
+        width: 95%;
+    }
+    .btn{
+        margin-bottom: 25px;
+    }
+    .asunto,.area{
+        margin-left: 20px;
     }
 }

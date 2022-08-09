@@ -34,7 +34,7 @@ export function Contacto(){
                     <textarea placeholder="Mensaje" required className={estilosContacto.area}></textarea>
                     <button type="submit" className={estilosContacto.btn}>Enviar</button>
 
-                    <input type="hidden" name="_next" value="http://localhost:3000/#contacto"/>
+                    <input type="hidden" name="_next" value="https://juan-fernandez.herokuapp.com/index.html#contacto"/>
                     <input type="hidden" name="_captcha" value="false" />
                     </form>
                 </div>
