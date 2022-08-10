@@ -442,6 +442,9 @@ input:focus{
     .btn{
         margin-bottom: 25px;
     }
+    .input{
+        width: 45%;
+    }
     .asunto,.area{
         margin-left: 20px;
     }
