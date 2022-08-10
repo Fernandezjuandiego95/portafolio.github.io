@@ -700,12 +700,12 @@
     }
     .divderecho{
         width: 90%;
-        height: 550px;
+        height: 610px;
         margin-left: 1.5rem;
         position: absolute;
     }
     .divizquierdo{
-        margin-top: 51rem;
+        margin-top: 53rem;
         margin-left: 1.5rem;
         width: 90%;
         height: 360px;
@@ -813,22 +813,62 @@
  @media all and (max-width:400px) {
 
     .h2,.h2:hover{
-      margin-left: 27%;
+      margin-left: 28%;
     }
-    .hola,.nombre,.span,.h3{
-        font-family: 'lato';
+    .h3{
+        margin-left: .8rem;
     }
     .fondopc{
         width: 90%;
-        margin-left:0;
         background-size: 17rem;
+        margin-left: 10px;
     }
     .divcaja{
-        width: 90%;
+        width: 80%;
         margin-left: -1rem;
         margin-top: .4rem;
     }
     .divizquierdo{
-        width: 80%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .imgcuadrado,.imghoriz,.imgrectangulo{
+        animation: none;
+    }
+}
+
+@media all and (max-width:335px) {
+
+    .divcaja{
+        width: 90%;
+    }
+
+}
+
+@media all and (max-width:280px) {
+
+    .section{
+        height: 1500px;
+    }
+    .fondopc{
+       background-image: none;
+    }
+    .divcaja{
+        width: 100%;
+        margin-left: .3rem;
+        margin-top: .4rem;
+        padding-left: 0;
+        height: 300px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        border: solid 2px rgb(61, 61, 61);
+    }
+    .divizquierdo{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 65rem;
+    }
+    .divderecho{
+        height: 750px;
     }
 }
