@@ -45,8 +45,8 @@ export function SobreMi(){
             
             <div className={estilosSobremi.parrafos}>
                 <span className={estilosSobremi.span}>
-                    Estudiante de Ingeniería de Sistemas en la Corporación Universitaria 
-                    Antonio José de Sucre (Corposucre), en la ciudad de Sincelejo.
+                    Estudiante de Ingeniería de Sistemas en la Universidad 
+                    Antonio José de Sucre (UAJS), en la ciudad de Sincelejo.
                 </span>
                 <br/><br/>
                 <span className={estilosSobremi.span}>

@@ -628,7 +628,11 @@
        font-size: 1.4rem;
        margin-top: 0;
    }
-
+   .h2,.h2:hover{
+    margin-left: 32%;
+    border: none;
+    font-family: 'lato';
+}
    .imgcuadrado{
     width: 2rem;
     height: 2rem;
@@ -689,11 +693,6 @@
  }
 
 
-
-
-
-
-
  @media all and (max-width:500px) {
     .section{
         height: 1250px;
@@ -701,12 +700,12 @@
     }
     .divderecho{
         width: 90%;
-        height: 660px;
+        height: 550px;
         margin-left: 1.5rem;
         position: absolute;
     }
     .divizquierdo{
-        margin-top: 55rem;
+        margin-top: 51rem;
         margin-left: 1.5rem;
         width: 90%;
         height: 360px;
@@ -724,7 +723,6 @@
        height: 50%;
        margin-top:1rem;
        margin-left: -1.5rem;
-
    }
    .mano{
        margin-left: 7rem;
@@ -743,7 +741,11 @@
        font-size: 1.4rem;
        margin-top: 0;
    }
-
+   .h2,.h2:hover{
+    margin-left: 32%;
+    border: none;
+    font-family: 'lato';
+}
    .imgcuadrado{
     width: 1.5rem;
     height: 1.5rem;
@@ -801,4 +803,32 @@
         height: 2rem;
     }
 }
+
+.hola,.nombre,.span,.h3{
+    font-family: 'lato';
+}
  }
+
+
+ @media all and (max-width:400px) {
+
+    .h2,.h2:hover{
+      margin-left: 27%;
+    }
+    .hola,.nombre,.span,.h3{
+        font-family: 'lato';
+    }
+    .fondopc{
+        width: 90%;
+        margin-left:0;
+        background-size: 17rem;
+    }
+    .divcaja{
+        width: 90%;
+        margin-left: -1rem;
+        margin-top: .4rem;
+    }
+    .divizquierdo{
+        width: 80%;
+    }
+}
