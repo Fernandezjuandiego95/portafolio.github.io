@@ -104,3 +104,55 @@
         background-size: 96px;
     }
 }
+
+
+/** Agregando la parte risponsive al sitio web, en el componente Proyectos.jsx*/  
+
+@media all and (max-width:500px){
+     
+    .section{
+        height: 870px;
+    }
+    .h2,.h2:hover{
+        margin-left: 32%;
+        border: none;
+        font-family: 'lato';
+    }
+    .divflechas{
+        justify-content: center;
+   
+    }
+    .flechaDerecha, .flechaIzquierda{
+        margin-top: 13.5rem;
+        background-size: 64px;
+    }
+    .flechaDerecha{
+       right: 20%;
+    }
+    .flechaIzquierda{
+        margin-left: -19%;
+    }
+    .cajapadre{
+        height: 500px;
+    }
+    .caja{
+        height: 85%;
+    }
+    @keyframes flechas {
+        from{
+          background-size: 64px;
+        }20%,40%,60%,80%{
+            background-size: 55px;
+        }
+        to{
+            background-size: 64px;
+        }
+    }
+}
+
+@media all and (max-width:400px) {
+
+    .h2,.h2:hover{
+      margin-left: 27%;
+    }
+}

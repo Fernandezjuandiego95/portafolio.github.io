@@ -26,6 +26,8 @@ export function Proyectos(){
                   </div>
               </div>
 
+                <br/><br/><br/><br/><br/><br/>
+
               <div className={estilosProyectos.caja} id="caja2">
                   <div>
 
@@ -42,6 +44,8 @@ export function Proyectos(){
                   </div>
               </div>
 
+              <br/><br/><br/><br/><br/><br/>
+
               <div className={estilosProyectos.caja} id="caja3">
                   <div>
 
@@ -57,6 +61,8 @@ export function Proyectos(){
                       </a>
                   </div>
               </div>
+
+              <br/><br/><br/><br/><br/><br/>
   
               <div className={estilosProyectos.caja} id="caja4">
                   <div> 
@@ -73,6 +79,8 @@ export function Proyectos(){
                       </a>
                   </div>
               </div>
+
+              <br/><br/><br/><br/><br/><br/>
 
               <div className={estilosProyectos.caja} id="caja5">
                   <div>

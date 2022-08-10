@@ -428,6 +428,7 @@ input:focus{
       .asunto,.area{
         font-family: 'lato';
     }
+    
 }
 
 @media all and (max-width:400px) {
@@ -443,5 +444,12 @@ input:focus{
     }
     .asunto,.area{
         margin-left: 20px;
+    }
+    .contenedor{
+        width: 100%;
+        margin-left: 0;
+     }
+    .divllamada{
+        width: 90%;
     }
 }
