@@ -45,6 +45,8 @@ export function Navar(){
             </nav>
             </section>
             </header>
+
+            <h2 className={estilos.h2}>Juan Fernández</h2>
             <p>
                 Desarrollador Web
             </p> 
