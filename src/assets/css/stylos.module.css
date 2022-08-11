@@ -523,6 +523,7 @@ section p{
         font-size: 1.2rem;
         width: 5rem;
         font-family: 'lato';
+        visibility: hidden;
       }
      section p{
         font-size: 1.2rem;
@@ -549,11 +550,12 @@ section p{
 
     /**Botones de la barra de navegacion ***/
     nav{
-        margin-left: 30%;
-        width: 25rem;
+        margin-left: 0;
+        margin-top: 7px;
+        width: 100%;
     }
     li{
-        padding: .7rem;
+        padding: .4rem;
     }
     ul li a{
         font-size: .6rem;
@@ -570,10 +572,32 @@ section p{
     }
     /*********Fin***********/
     .header{
-        height: 7.5rem;
+        height: 5.5rem;
     }
 
     .opacidad{
-        height: 7rem;
+        height: 5rem;
     }
+ }
+
+ @media all and (max-width:400px) {
+
+   /**Botones de la barra de navegacion ***/
+   nav{
+    margin-left: 10%;
+    margin-top: 5px;
+    width: 80%;
+}
+li{
+    padding: .6rem;
+}
+
+/*********Fin***********/
+.header{
+    height:6rem;
+}
+
+.opacidad{
+    height: 5.5rem;
+}
  }
