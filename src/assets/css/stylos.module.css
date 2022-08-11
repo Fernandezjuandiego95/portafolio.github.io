@@ -522,11 +522,12 @@ section p{
         margin-left: .7rem;
         font-size: 1.2rem;
         width: 5rem;
-        
+        font-family: 'lato';
       }
      section p{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         margin-left: 5%;
+        font-family: 'lato';
      
       }
       .ilustracion{
@@ -541,7 +542,8 @@ section p{
        
       }
       .h3{
-          font-size: .5rem;
+          font-size: .8rem;
+          font-family: 'lato';
       }
      
 
@@ -557,6 +559,7 @@ section p{
         font-size: .6rem;
         padding: 7px 11px;
         border-radius: 6px;
+        font-family: 'lato';
     }
     ul li a:hover{
 
