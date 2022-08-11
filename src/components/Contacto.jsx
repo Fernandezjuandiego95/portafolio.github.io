@@ -28,10 +28,10 @@ export function Contacto(){
                     
                     <form action="https://formsubmit.co/fernandezgonzalezjuandiego95@gmail.com" method="POST">
 
-                    <input type="text"  placeholder="Nombre" required className={estilosContacto.input}/>
-                    <input type="email" placeholder="Correo" required className={estilosContacto.input}/>
-                    <input type="text"  placeholder="Asunto" required className={estilosContacto.asunto}/>
-                    <textarea placeholder="Mensaje" required className={estilosContacto.area}></textarea>
+                    <input type="text" name="w3lName" placeholder="Nombre" required className={estilosContacto.input}/>
+                    <input type="email" name="w3lSender" placeholder="Correo" required className={estilosContacto.input}/>
+                    <input type="text" name="w3lSubject" placeholder="Asunto" required className={estilosContacto.asunto}/>
+                    <textarea name="w3lMessage" placeholder="Mensaje" required className={estilosContacto.area}></textarea>
                     <button type="submit" className={estilosContacto.btn}>Enviar</button>
 
                     <input type="hidden" name="_next" value="https://juan-fernandez.herokuapp.com/index.html#contacto"/>
