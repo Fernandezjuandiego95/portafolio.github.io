@@ -15,32 +15,32 @@ export function SobreMi(){
     return(
         <section id="sobremi" className={estilosSobremi.section}>
 
-         <h2 className={estilosSobremi.h2}>Sobre Mí</h2>
+         <h2 loading="lazy" className={estilosSobremi.h2}>Sobre Mí</h2>
             <div className={estilosSobremi.divizquierdo}>
 
                 <h3 className={estilosSobremi.h3}>Tecnologías Que Utilizo</h3>
                    
                    <div className={estilosSobremi.fondopc}>
                     <div className={estilosSobremi.divcaja}>
-                        <img src={Html} alt="icono html" className={estilosSobremi.imghoriz}/>
-                        <img src={Css} alt="icono css" className={estilosSobremi.imghoriz}/>
-                        <img src={Js} alt="icono Js" className={estilosSobremi.imgcuadrado}/>
-                        <img src={Php} alt="icono php" className={estilosSobremi.imgcuadrado}/>
-                        <img src={Mysql} alt="icono Mysql" className={estilosSobremi.imghoriz}/>
-                        <img src={IconoReactJs} alt="icono React" className={estilosSobremi.imgcuadrado}/>
-                        <img src={Laravel} alt="icono Laravel" className={estilosSobremi.imgrectangulo}/>
-                        <img src={Git} alt="icono git" className={estilosSobremi.imgcuadrado}/>
-                        <img src={GitHub} alt="icono gitHub" className={estilosSobremi.imgcuadrado}/>
+                        <img loading="lazy" src={Html} alt="icono html" className={estilosSobremi.imghoriz}/>
+                        <img loading="lazy" src={Css} alt="icono css" className={estilosSobremi.imghoriz}/>
+                        <img loading="lazy" src={Js} alt="icono Js" className={estilosSobremi.imgcuadrado}/>
+                        <img loading="lazy" src={Php} alt="icono php" className={estilosSobremi.imgcuadrado}/>
+                        <img loading="lazy" src={Mysql} alt="icono Mysql" className={estilosSobremi.imghoriz}/>
+                        <img loading="lazy" src={IconoReactJs} alt="icono React" className={estilosSobremi.imgcuadrado}/>
+                        <img loading="lazy" src={Laravel} alt="icono Laravel" className={estilosSobremi.imgrectangulo}/>
+                        <img loading="lazy" src={Git} alt="icono git" className={estilosSobremi.imgcuadrado}/>
+                        <img loading="lazy" src={GitHub} alt="icono gitHub" className={estilosSobremi.imgcuadrado}/>
                     </div>
                  </div>
         </div>
         
-         <div className={estilosSobremi.divderecho}>
+         <div loading="lazy" className={estilosSobremi.divderecho}>
              
             <div className={estilosSobremi.yo}/>
  
             <span className={estilosSobremi.hola}>HOLA!</span>
-            <img src={Mano} alt="saludo" className={estilosSobremi.mano}/>
+            <img loading="lazy" src={Mano} alt="saludo" className={estilosSobremi.mano}/>
             <span className={estilosSobremi.nombre}>: Soy Juan Diego Fernández</span>
             
             <div className={estilosSobremi.parrafos}>

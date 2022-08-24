@@ -1,5 +1,5 @@
 import estilosFooter from "../assets/css/estilosFooter.module.css";
-import gitHub from "../assets/images/github.svg";
+import gitHub from "../assets/images/svg/github.svg";
 import Facebook from "../assets/images/facebook.png";
 import Whatp from "../assets/images/what.png";
 
@@ -18,15 +18,15 @@ export function Footer(){
                 <h5 className={estilosFooter.redes}>Redes Sociales</h5>
 
                 <a href="https://www.facebook.com/profile.php?id=100054830910045" className={estilosFooter.iface}> 
-                <img src={Facebook} alt="Facebook" className={estilosFooter.redesimg}/>
+                <img loading="lazy" src={Facebook} alt="Facebook" className={estilosFooter.redesimg}/>
                 </a>
 
                 <a href="https://wa.link/1mj2mq" className={estilosFooter.iwht}>
-                <img src={Whatp} alt="WhatsApp" className={estilosFooter.redesimg}/>
+                <img loading="lazy" src={Whatp} alt="WhatsApp" className={estilosFooter.redesimg}/>
                 </a>
                 
                 <a href="https://github.com/Fernandezjuandiego95" className={estilosFooter.ihub}> 
-                 <img src={gitHub} alt="GitHub" className={estilosFooter.redesimg}/>
+                 <img loading="lazy" src={gitHub} alt="GitHub" className={estilosFooter.redesimg}/>
                  </a>
               
             </div>

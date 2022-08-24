@@ -50,12 +50,9 @@ export function Navar(){
             <p>
                 Desarrollador Web
             </p> 
-            <p className={estilos.pcaja}>
-            <h3 className={estilos.h3}>Nunca dejes de aprender algo nuevo.
-                <span className={estilos.escribir}></span>
-            </h3>
-            </p>  
-            <img src={Ilustracion} alt="Ilustracion" className={estilos.ilustracion}/>
+             <span className={estilos.maquina_escribir}>Nunca dejes de aprender algo nuevo.</span> 
+             
+            <img loading="lazy" src={Ilustracion} alt="Ilustracion" className={estilos.ilustracion}/>
         </section>
          
     )

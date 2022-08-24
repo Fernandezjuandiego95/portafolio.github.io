@@ -251,41 +251,32 @@ section p{
     z-index: 1;
 }
 
-.pcaja{
-  width:26.5%;
-  margin-top: 20rem;
-  position:absolute;
-}
-
-.h3{
+.maquina_escribir{
+    display: block;
     font-size: 1.3rem;
     font-weight: 400;
-    margin-top: .5rem;
-    position: relative;
-}
-
-.escribir{
+    margin-top: 20.5rem;
+    margin-left: 28%;
     position: absolute;
-    right:  0px;
-    width: 0;
-    height: 1.7rem;
-    margin-top: .3rem;
-    background-color: #247b2e;
-    background-size: cover;
-    border-left: solid 1px #FFFFFF;
-    animation: cubrir 5s  steps(35);
+    color: #ffffff;
+    font-family: cursive;
+    white-space: nowrap;
+    border-radius: 4px solid;
+    width: 35ch;
+    animation: typing 3s steps(35),
+    blink .7s infinite step-end alternate;
+    overflow: hidden;
 }
-@keyframes cubrir {
+@keyframes typing {
     from{
-     
-        width: 100%;
-    }
-    to{
-
         width: 0;
     }
 }
-
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
 
 .ilustracion{
   width: 300px;
@@ -305,37 +296,13 @@ section p{
   nav{
    margin-left: 35%;
  }
- .h3{
+ .maquina_escribir{
      font-size: 1rem;
  }  
- .pcaja{
-     width: 21%;
- } 
 }
 
-@media all and (max-width:1310px){
-    .h3{
-        font-size: .8rem;
-    }
-    .pcaja{
-        width: 17%;
-    }
-    .escribir{
-      height: 1rem;
-      margin-top: .2rem;
-    }
-}
 
-@media all and (max-width:1300px){
 
-   .pcaja{
-       width:27%;
-   }
-   .escribir{
-       animation: none;
-       border-left: none;
-   }
-}
 
 @media all and  (min-width:1101px) and (max-width:1250px){
 
@@ -424,9 +391,11 @@ section p{
   .div{
     height:660px;
   }
-  .pcaja{
-    width: 30%;
-  }
+  .maquina_escribir{
+    font-size: .9rem;
+    margin-top: 18.7rem;
+    margin-left: 25%;
+}
 
 /**Botones de la barra de navegacion ***/
   nav{
@@ -479,19 +448,13 @@ section p{
         margin-top: 11rem;
         margin-left: 60%;
       }
-      .pcaja{
-        width:33%;
-        margin-top: 18rem;
-       
+
+      .maquina_escribir{
+          font-size: .7rem;
+          margin-top: 18rem;
+          margin-left: 5%;
       }
-      .h3{
-          font-size: .6rem;
-      }
-      .escribir{
-          height: 1rem;
-          margin-top: .1rem;
-          
-      }
+ 
 
     /**Botones de la barra de navegacion ***/
     nav{
@@ -553,14 +516,11 @@ section p{
         margin-top: 11rem;
         margin-left: 55%;
       }
-      .pcaja{
-        width:33%;
-        margin-top: 18rem;
-       
-      }
-      .h3{
+      .maquina_escribir{
           font-size: .8rem;
           font-family: 'lato';
+          margin-left: 5%;
+          margin-top: 18rem;
       }
      
 
@@ -614,6 +574,10 @@ section p{
     .opacidad{
         height: 5.5rem;
 }
+   .maquina_escribir{
+    font-size: .7rem;
+  }
+
 }
 
 
@@ -634,4 +598,7 @@ section p{
     .opacidad{
         height: 5.3rem;
     }
+    .maquina_escribir{
+        font-size: .5rem;
+      }
  }
