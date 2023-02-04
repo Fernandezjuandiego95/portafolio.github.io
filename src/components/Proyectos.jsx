@@ -1,5 +1,7 @@
 import estilosProyectos from "../assets/css/proyectos.module.css"
-
+import { SliderTomala} from "./SliderTomala";
+import {Tecnologias} from "./Tecnologias";
+import gitHub from "../assets/images/svg/github.svg";
 
 export function Proyectos(){
    
@@ -10,42 +12,56 @@ export function Proyectos(){
 
          <div className={estilosProyectos.cajapadre}>
 
-              <div className={estilosProyectos.caja} id="caja1">
-                  <div>
-                      
-                  <u>CAJA 1</u>
-
-                  </div>
+              <div className={estilosProyectos.caja} id="proyect1">
+                
+                <span className={estilosProyectos.titulo}>
+                PROYECTO DE AULA: Diseño de una aplicación web dinámica que sea capaz de fomentar los 
+                procesos de enseñanza de las matemáticas como una ayuda complementaria
+                en el aprendizaje de los estudiantes de grado quinto de la I. E. T. A 
+                DE TOMALA.
+                </span>
+                <div className={estilosProyectos.ccc}> 
+                    <SliderTomala/>
+                    <Tecnologias/>
+                    <a href="#" className={estilosProyectos.visitar}>Visitar</a>
+                    <a href="https://github.com/Fernandezjuandiego95/I.E.T.A-Tomala" className={estilosProyectos.ihub}> 
+                    <img src={gitHub} alt="GitHub" className={estilosProyectos.redesimg}/>
+                    </a>
+                </div>
+               
+                  
                   <div className={estilosProyectos.divflechas}>
-                      <a href="#caja5">
+                      <a href="#proyect2">
                            <span className={estilosProyectos.flechaIzquierda}></span>
                       </a>
-                      <a href="#caja2">
+                      <a href="#proyect2">
                            <span className={estilosProyectos.flechaDerecha}></span>
                       </a>
-                  </div>
+                  </div> 
               </div>
 
                 <br/><br/><br/><br/><br/><br/>
 
-              <div className={estilosProyectos.caja} id="caja2">
+              <div className={estilosProyectos.caja} id="proyect2">
                   <div>
 
-                  <u>CAJA 2</u>
+                  {
+                  //trabajar aqui
+                  }
 
                   </div>
                   <div className={estilosProyectos.divflechas}>
-                      <a href="#caja1">
+                      <a href="#proyect1">
                          <span className={estilosProyectos.flechaIzquierda}></span>
                       </a>
-                      <a href="#caja3">
+                      <a href="#proyect1">
                          <span className={estilosProyectos.flechaDerecha}></span>
                       </a>
                   </div>
               </div>
 
               <br/><br/><br/><br/><br/><br/>
-
+{/*
               <div className={estilosProyectos.caja} id="caja3">
                   <div>
 
@@ -53,7 +69,7 @@ export function Proyectos(){
 
                   </div>
                   <div className={estilosProyectos.divflechas}>
-                      <a href="#caja2">
+                      <a href="#proyect2">
                          <span className={estilosProyectos.flechaIzquierda}></span>
                       </a>
                       <a href="#caja4">
@@ -92,14 +108,12 @@ export function Proyectos(){
                       <a href="#caja4">
                          <span className={estilosProyectos.flechaIzquierda}></span>
                       </a>
-                      <a href="#caja1">
+                      <a href="#proyect1">
                          <span className={estilosProyectos.flechaDerecha}></span>
                       </a>
                   </div>
               </div>
-
-
-
+    */}
 
           </div>
         </section>

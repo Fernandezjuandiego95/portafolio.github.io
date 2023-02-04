@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    font-size: 15px;
+    font-family: "lato";
+    font-weight: 600;
+    font-style: italic;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: -3.5rem;
+}
+
+u{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: -5rem;
+	width: 16px;
+	height: 16px;
+    border-radius: 50%;
+	background-color: #fd4305;
+}
+
+.blue{
+    background-color: rgb(0, 81, 255);
+}
+
+.purple{
+    background-color: rgba(177, 0, 205, 0.832);
+}
+
+.yellow{
+    background-color: rgb(243, 243, 0);
+}
+
