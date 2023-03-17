@@ -12,10 +12,11 @@ export function Proyectos(){
 
          <div className={estilosProyectos.cajapadre}>
 
+         {/*-----------contenido del primer proyecto "Tomala"-------------*/}
               <div className={estilosProyectos.caja} id="proyect1">
                 
                 <span className={estilosProyectos.titulo}>
-                PROYECTO DE AULA: Diseño de una aplicación web dinámica que sea capaz de fomentar los 
+                <i>PROYECTO DE AULA:</i> Diseño de una aplicación web dinámica que sea capaz de fomentar los 
                 procesos de enseñanza de las matemáticas como una ayuda complementaria
                 en el aprendizaje de los estudiantes de grado quinto de la I. E. T. A 
                 DE TOMALA.
@@ -39,9 +40,11 @@ export function Proyectos(){
                       </a>
                   </div> 
               </div>
-
+              {/*----------------Fin primer proyecto------------------------------*/}
+              
                 <br/><br/><br/><br/><br/><br/>
-
+             
+              {/*------------------contenido del segundo proyecto-----------------*/}
               <div className={estilosProyectos.caja} id="proyect2">
                   <div>
 
@@ -59,7 +62,8 @@ export function Proyectos(){
                       </a>
                   </div>
               </div>
-
+              {/*-----------------------Fin segundo proyecto-------------------*/}
+             
               <br/><br/><br/><br/><br/><br/>
 {/*
               <div className={estilosProyectos.caja} id="caja3">

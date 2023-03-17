@@ -44,3 +44,53 @@
     90%{margin-left: -500%;}
     100%{margin-left: -500%;}
 }
+
+@media all and (max-width:1250px){
+    .div{
+        width: 85%;
+        height: 65%;
+    }
+    .imagen{
+        height: 80%;
+    }
+}
+
+@media all and (max-width:1100px){
+    .div{
+        height: 72%;
+    }
+    .imagen{
+        height: 85%;
+        margin-top: 0px;
+    }
+}
+
+@media all and (max-width:980px){
+    .div{
+        height: 75%;
+    }
+    .imagen{
+        height: 95%;
+        margin-top: -15px;
+    }
+}
+
+@media all and (max-width:900px){
+   .div{
+       margin-top: 9rem;
+       height: 57%;
+       width: 98%;
+   }
+   .imagen{
+       height: 80%;
+   }
+}
+
+@media all and (max-width:800px){
+    .div{
+        height: 60%;
+    }
+    .imagen{
+        height: 90%;
+    }
+ }
