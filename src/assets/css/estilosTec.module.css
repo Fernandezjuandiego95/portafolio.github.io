@@ -54,3 +54,62 @@ u{
     }
     
 }
+
+@media all and (max-width:710px){
+    .text{ 
+        font-size: 12px;
+    }
+    u{
+        width: 12px;
+        height: 12px;
+     
+    }
+    .divtec{
+        margin-top: 7.5rem;
+    }
+}
+
+@media all and (max-width:600px){
+
+    u{
+        width: 10px;
+        height: 10px;
+     
+    }
+
+}
+
+@media all and (max-width:495px){
+
+    u{
+        width: 8px;
+        height: 8px;
+    }
+    .text{
+        font-size: 11px;
+    }
+    .divtec{
+        margin-top: 9rem;
+    }
+
+}
+
+@media all and (max-width:400px){
+
+    .divtec{
+        width: 80%;
+        height: 8%;
+        flex-wrap: wrap;
+        margin-top: 11rem;
+        margin-left: 20px;
+    }
+
+}
+
+@media all and (max-width:290px){
+
+    .divtec{
+        margin-top: 23.4rem;
+    }
+
+}

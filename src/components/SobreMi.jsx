@@ -4,7 +4,8 @@ import Css from "../assets/images/tecno/css.png";
 import Js from "../assets/images/tecno/js.png";
 import Php from "../assets/images/tecno/php.png";
 import Mysql from "../assets/images/tecno/Mysql.png";
-import IconoReactJs from "../assets/images/tecno/react.png";
+//import IconoReactJs from "../assets/images/tecno/react.png";
+import IconFigma from "../assets/images/tecno/figma.png";
 import Laravel from "../assets/images/tecno/laravel.png";
 import Git from "../assets/images/tecno/git.png";
 import GitHub from "../assets/images/tecno/github.png";
@@ -27,7 +28,7 @@ export function SobreMi(){
                         <img loading="lazy" src={Js} alt="icono Js" className={estilosSobremi.imgcuadrado}/>
                         <img loading="lazy" src={Php} alt="icono php" className={estilosSobremi.imgcuadrado}/>
                         <img loading="lazy" src={Mysql} alt="icono Mysql" className={estilosSobremi.imghoriz}/>
-                        <img loading="lazy" src={IconoReactJs} alt="icono React" className={estilosSobremi.imgcuadrado}/>
+                        <img loading="lazy" src={IconFigma} alt="icono React" className={estilosSobremi.imgcuadrado}/>
                         <img loading="lazy" src={Laravel} alt="icono Laravel" className={estilosSobremi.imgrectangulo}/>
                         <img loading="lazy" src={Git} alt="icono git" className={estilosSobremi.imgcuadrado}/>
                         <img loading="lazy" src={GitHub} alt="icono gitHub" className={estilosSobremi.imgcuadrado}/>
@@ -50,11 +51,11 @@ export function SobreMi(){
                 </span>
                 <br/><br/>
                 <span className={estilosSobremi.span}>
-                    Tengo 21 años de edad, me apasiona todo lo relacionado con el desarrollo web y
+                    Tengo 22 años de edad, me apasiona todo lo relacionado con el desarrollo web y
                     las nuevas tecnologías emergentes; por lo que nunca paro de aprender algo nuevo.
                 </span>
                 <br/><br/> 
-                <span className={estilosSobremi.span}>Estoy enfocado en llegar a ser un “Desarrollador Web Full Stack”</span>   
+                <span className={estilosSobremi.span}>Estoy enfocado en mejorar mis habilidades y ser una persona íntegra.</span>   
             </div>
          </div>
         </section>

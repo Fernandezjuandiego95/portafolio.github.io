@@ -3,7 +3,7 @@ import GityGithub from "../assets/images/certificados/git_y_github.PNG";
 import IngSoft from "../assets/images/certificados/fundaSoft.PNG";
 import Scrum from "../assets/images/certificados/scrum.jpg";
 import js from "../assets/images/certificados/js.png";
-import C_R_avanzado from "../assets/images/certificados/C_react_avanzado.jpg";
+import Figma from "../assets/images/certificados/figma.png";
 import Php_con_Laravel from "../assets/images/certificados/php_con_laravel.jpg";
 
 
@@ -21,7 +21,7 @@ export function Certificados(){
               
               <img  src={js} alt="Certificado de Programacion con JavaScript" className={estilosCertificados.img}/>
             
-              <img  src={C_R_avanzado} alt="Certificado de React Avanzado" className={estilosCertificados.img}/>
+              <img  src={Figma} alt="Certificado de React Avanzado" className={estilosCertificados.img}/>
              
               <img loading="lazy" src={Php_con_Laravel} alt="Certificado de php con Laravel" className={estilosCertificados.img}/>
 

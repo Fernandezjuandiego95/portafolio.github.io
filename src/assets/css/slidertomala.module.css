@@ -94,3 +94,36 @@
         height: 90%;
     }
  }
+
+ @media all and (max-width:710px){
+    .div{
+        margin-top: 11rem;
+    }
+ 
+ }
+
+ @media all and (max-width:495px){
+    .div{
+        margin-top: 12rem;
+        height: 50%;
+    }
+    .imagen{
+        margin-top: 5px;
+    }
+ 
+}
+
+@media all and (max-width:400px) {
+    .div{
+        margin-top: 13rem;
+    }
+
+}
+
+@media all and (max-width:290px) {
+    .div{
+        margin-top: 14rem;
+        height: 45%;
+    }
+
+}

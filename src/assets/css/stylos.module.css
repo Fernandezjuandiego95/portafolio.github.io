@@ -370,12 +370,12 @@ section p{
    
 
 
-@media all and  (min-width:680px) and (max-width:999px) {
+@media all and (max-width:999px) {
 
   h1{
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 16rem;
   }
   section p{
@@ -399,11 +399,12 @@ section p{
 
 /**Botones de la barra de navegacion ***/
   nav{
-      margin-left: 45%;
-      width: 25rem;
+      margin-left: 25%;
+      width: 70%;
+    
   }
   li{
-      padding: 1.3rem;
+      padding: 1rem;
   }
     ul li a{
         font-size: .7rem;
@@ -419,25 +420,60 @@ section p{
     }
 /*********Fin***********/
     .header{
-        height: 10rem;
+        height: 7rem;
     }
 
     .opacidad{
-        height: 9.5rem;
+        height: 6.5rem;
     }
  }
  
-
- @media all and  (min-width:501px) and (max-width:679px) {
-
+ @media all and (max-width:924px) {
+    .header{
+        height: 5.7rem;
+    }
+    .opacidad{
+        height: 5.2rem;
+    }
+    nav{
+        margin-left: 20%;
+    }
     h1{
-        margin-top: 2rem;
-        margin-left: .5rem;
-        font-size: 1.2rem;
-        width: 5rem;
-        
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+    /**Botones de la barra de navegacion ***/
+
+    li{
+        padding: 0.7rem;
+    }
+    ul li a{
+        font-size: .6rem;
+    }
+    /*********Fin***********/
+ }
+
+ @media all and  (max-width:752px){
+    h1{
+        visibility: hidden;
       }
-      section p{
+    .h2{
+        font-size: 1.8rem;
+        font-family: 'lato';
+        margin-left: 25%;
+        margin-top: 12rem;
+        opacity: 1;
+    }
+    nav{
+        margin-left: 5%;
+        width: 85%;
+    }
+    
+ }
+
+ @media all and  (max-width:645px){
+
+      .h2,section p{
         font-size: 1.5rem;
         margin-left: 5%;
      
@@ -455,79 +491,21 @@ section p{
           margin-left: 5%;
       }
  
-
-    /**Botones de la barra de navegacion ***/
     nav{
-        margin-left: 30%;
-        width: 25rem;
+        margin-left: 1%;
+        width: 98%;
     }
-    li{
-        padding: .9rem;
-    }
-    ul li a{
-        font-size: .6rem;
-        padding: 7px 11px;
-        border-radius: 6px;
-    }
-    ul li a:hover{
-
-        border-radius: 6px;
-    }
-    ul li a::before{
-        border-radius: 6px;
-    }
-    /*********Fin***********/
-    .header{
-        height: 8rem;
-    }
-
-    .opacidad{
-        height: 7.5rem;
-    }
-
+   
  }
 
- @media all and (max-width:500px) {
 
-    h1{
-        margin-top: 2rem;
-        margin-left: .7rem;
-        font-size: 1.2rem;
-        width: 5rem;
-        font-family: 'lato';
-        visibility: hidden;
-      }
-      .h2{
-        font-size: 1.5rem;
-        font-family: 'lato';
-        margin-left: 5%;
-        margin-top: 12rem;
-        opacity: 1;
-    }
-     section p{
-        font-size: 1.2rem;
-        margin-left: 5%;
-        font-family: 'lato';
-     
-      }
-      .ilustracion{
-        width: 160px;
-        height: 160px;
-        margin-top: 11rem;
-        margin-left: 55%;
-      }
-      .maquina_escribir{
-          font-size: .8rem;
-          font-family: 'lato';
-          margin-left: 5%;
-          margin-top: 18rem;
-      }
-     
+
+ @media all and (max-width:560px) {
 
     /**Botones de la barra de navegacion ***/
     nav{
         margin-left: 0;
-        margin-top: 7px;
+        margin-top: 15px;
         width: 100%;
     }
     li{
@@ -548,15 +526,15 @@ section p{
     }
     /*********Fin***********/
     .header{
-        height: 5.5rem;
+        height: 4.5rem;
     }
 
     .opacidad{
-        height: 5rem;
+        height: 4rem;
     }
  }
 
- @media all and (max-width:400px) {
+ @media all and (max-width:465px) {
 
    nav{
     margin-left: 10%;
@@ -578,17 +556,23 @@ section p{
     font-size: .7rem;
   }
     .ilustracion{
-        margin-top: 9rem;
+        margin-top: 7.6rem;
+        width: 120px;
+        height: 120px;
+        margin-left: 63%;
     }
 
 }
 
 
-@media all and (max-width:337px) {
+@media all and (max-width:345px) {
 
 
     nav{
      margin-left: 5%;
+     margin-top: 10px;
+     width: 90%;
+
     }
     li{
         padding: .4rem;
@@ -603,5 +587,45 @@ section p{
     }
     .maquina_escribir{
         font-size: .5rem;
+      }
+
+      .ilustracion{
+        margin-top: 9rem;
+        width: 90px;
+        height: 90px;
+        margin-left: 64%;
+    }
+
+ }
+
+ @media all and (max-width:290px) {
+
+
+    nav{
+     margin-left: 5%;
+     margin-top: 10px;
+     width: 90%;
+ 
+    }
+    li{
+        padding: .3rem;
+    }
+
+    .header{
+        height:5.8rem;
+    }
+    
+    .opacidad{
+        height: 5.3rem;
+    }
+
+      .ilustracion{
+        margin-top: 8rem;
+        margin-left: 50%;
+    }
+    .h2,section p{
+        font-size: .8rem;
+        margin-left: 2%;
+     
       }
  }
