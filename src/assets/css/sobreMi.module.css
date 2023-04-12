@@ -742,7 +742,7 @@
        margin-top: 0;
    }
    .h2,.h2:hover{
-    margin-left: 32%;
+    margin-left: 33%;
     border: none;
     font-family: 'lato';
 }
@@ -812,19 +812,17 @@
 
  @media all and (max-width:400px) {
 
-    .h2,.h2:hover{
-      margin-left: 28%;
-    }
     .h3{
         margin-left: .8rem;
     }
     .fondopc{
-        width: 90%;
+        width: 80%;
+        height: 60%;
         background-size: 17rem;
-        margin-left: 10px;
+        margin-left: 17%;
     }
     .divcaja{
-        width: 80%;
+        width: 90%;
         margin-left: -1rem;
         margin-top: .4rem;
     }
@@ -837,10 +835,20 @@
     }
 }
 
-@media all and (max-width:335px) {
-
-    .divcaja{
+@media all and (max-width:340px) {
+    .fondopc{
         width: 90%;
+        background-size: 18rem;
+        margin-left: 8%;
+    }
+
+}
+
+@media all and (max-width:325px) {
+    .fondopc{
+        width: 95%;
+        background-size: 17rem;
+        margin-left: 7%;
     }
 
 }

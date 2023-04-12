@@ -12,6 +12,10 @@
 	transform-style: preserve-3d;
 	animation: animate 4s linear infinite;
 }
+
+.cube:hover{
+	animation: animate 1.6s linear infinite;
+}
 @keyframes animate{
 	0%{
 		transform: rotateX(-30deg) rotateY(0deg);
@@ -20,7 +24,6 @@
 		transform: rotateX(-30deg) rotateY(360deg);
 	}
 }
-
 
 
 .cube div{

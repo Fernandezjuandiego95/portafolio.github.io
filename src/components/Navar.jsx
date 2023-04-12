@@ -10,37 +10,41 @@ export function Navar(){
         <h1>Juan Fernández</h1>
         
          <nav>
-            <ul>
-               <li>
-                   <a href="index.html">
-                      <span> Inicio</span>
-                      <i></i>
-                    </a>
-                </li>
-                <li>
-                   <a href="#sobremi" className={estilos.sbr}>
-                       <span>Sobre Mi</span>
-                       <i></i>
-                    </a>
-                </li>
-               <li>
-                   <a href="#proyectos" className={estilos.pry}>
-                       <span>Proyectos</span>
-                       <i></i>
-                    </a>
-                </li>
-               <li>
-                   <a href="#certificados" className={estilos.cert}>
-                       <span>Certificados</span>
-                       <i></i>
-                    </a>
-                </li>
-               <li>
-                   <a href="#contacto" className={estilos.cont}>
-                       <span>Contacto</span>
-                       <i></i>
-                    </a>
-                </li>
+            <ul className={estilos.ul}>
+               <a href="index.html" className={`${estilos.a} ${estilos.home}`}>
+                    <li className={estilos.li}>
+                        <span> Inicio</span>
+                        <i></i>
+                    </li>
+                </a>
+
+                <a href="#sobremi" className={`${estilos.a} ${estilos.user}`}>
+                    <li className={`${estilos.li} ${estilos.sbr}`}>
+                        <span>Sobre Mi</span>
+                        <i></i>
+                    </li>
+                </a>
+
+                <a href="#proyectos" className={`${estilos.a} ${estilos.proyect}`}>
+                    <li className={`${estilos.li} ${estilos.pry}`}>
+                        <span>Proyectos</span>
+                        <i></i>
+                    </li>
+                </a>
+
+                <a href="#certificados" className={`${estilos.a} ${estilos.certifi}`}>
+                    <li className={`${estilos.li} ${estilos.cert}`}>
+                        <span>Certificados</span>
+                        <i></i>
+                    </li>
+                </a>
+
+                <a href="#contacto" className={`${estilos.a} ${estilos.contact}`}>
+                    <li className={`${estilos.cont} ${estilos.li}`}>
+                        <span>Contacto</span>
+                        <i></i>
+                    </li>
+                </a>
            </ul>
             </nav>
             </section>

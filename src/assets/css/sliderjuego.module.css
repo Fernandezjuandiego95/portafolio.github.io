@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div{
+    width: 85%;
+    height: 85%;
+    overflow: hidden;
+    margin-left: 1%;
+    margin-top: 3rem;
+}
+
+.ul{
+    display: flex;
+    animation: slider 15s infinite alternate linear;
+    width: 600%;
+}
+
+.li{
+    width: 100%;
+    list-style: none;
+}
+
+.imagen{
+    width: 83%;
+    height:90%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+@keyframes slider {
+    0%{margin-left: 0;}
+    15%{margin-left: 0;}
+    20%{margin-left: -120%;}
+    35%{margin-left: -120%;}
+    40%{margin-left: -240%;}
+    55%{margin-left: -240%;}
+    60%{margin-left: -360%;}
+    75%{margin-left: -360%;}
+    80%{margin-left: -480%;}
+    100%{margin-left: -480%;}
+  
+   
+}
+
+@media all and (max-width:1250px){
+    .div{
+        height: 90%;
+        margin-top: 4rem;
+    }
+    .imagen{
+        height: 98%;
+    }
+}
+
+@media all and (max-width:1100px){
+    .div{
+        height: 95%;
+    }
+    .imagen{
+        height: 105%;
+    }
+}
+
+@media all and (max-width:980px){
+    .div{
+        height: 100%;
+    }
+    .imagen{
+       margin-top: 20px;
+    }
+}
+
+@media all and (max-width:900px){
+   .div{
+       margin-top: 7rem;
+       height: 75%;
+       width: 98%;
+   }
+   .imagen{
+       height: 90%;
+   }
+}
+
+@media all and (max-width:800px){
+    .div{
+        height: 80%;
+    }
+    .imagen{
+        height: 100%;
+    }
+ }
+
+
+ @media all and (max-width:500px){
+    .imagen{
+        margin-top: 5px;
+        height: 110%;
+    }
+ 
+}
+

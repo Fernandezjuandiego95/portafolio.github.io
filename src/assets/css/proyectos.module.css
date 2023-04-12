@@ -40,7 +40,11 @@
     margin-left: 93%;
     font-size: 18px;
     font-weight: 600;
-    color: #000000;
+    color: #000000
+}
+.ver{
+    /*visivilidad del link de visita*/
+    visibility: hidden;
 }
 
 .section{
@@ -214,6 +218,12 @@
         margin-top: 25%;
         height: 30%;
     }
+    .ihubjuego{
+        margin-top: 4rem;
+    }
+    .visitarjuego{
+        margin-top: 4.9rem;
+    }
     
 }
 
@@ -266,12 +276,30 @@
     .ihub{
         margin-top: 6.6rem;
     }
+    .h2,.h2:hover{
+        margin-left: 32%;
+    }
+
+    .ihubjuego{
+        margin-top: 4rem;
+    }
+    .visitarjuego{
+        margin-top: 4.9rem;
+    }
     
 }
 
+@media all and (max-width:600px){
+    .caja{
+        height: 90%;
+    }
+}
 
-@media all and (max-width:495px){
-     
+@media all and (max-width:500px){
+    .h2,.h2:hover{
+        border: none;
+        font-family: 'lato';
+    }
     .divflechas{
         justify-content: center;
         margin-top: 25rem;
@@ -287,6 +315,7 @@
     }
     .cajapadre{
         height: 500px;
+   
     }
     .caja{
         height: 85%;
@@ -305,6 +334,20 @@
     }
     .h2{
         margin-left: 30%;
+    }
+
+    
+    .ihubjuego{
+        margin-top: 3rem;
+    }
+    .visitarjuego{
+        margin-top: 3.7rem;
+    }
+    .cajajuego{
+        height:70%;
+    }
+    .divflechasjuego{
+        margin-top: 21rem;
     }
 
 }
@@ -328,6 +371,13 @@
         height: 30px;
         
     }
+    .ihubjuego{
+        margin-top: 3rem;
+    }
+    .visitarjuego{
+        margin-top: 3.7rem;
+    }
+  
 }
 
 @media all and (max-width:290px) {
@@ -337,6 +387,12 @@
     }
     .ihub{
         margin-top: 12rem;
+    }
+    .ihubjuego{
+        margin-top: 3rem;
+    }
+    .visitarjuego{
+        margin-top: 3.7rem;
     }
 
 }

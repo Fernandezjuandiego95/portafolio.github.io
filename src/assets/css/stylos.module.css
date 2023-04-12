@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    --color:#fd1605;
+
 }
 
 .div{
@@ -44,18 +44,20 @@ h1:hover, .h2:hover{
 
 nav{
     margin-left: 40%;
-    margin-top: 1rem;
+    margin-top: 1.8rem;
     position:fixed;
  }
 
-li{
-   display: inline-block;
-   list-style: none;
+.a{
    position: relative;
    padding: 1.3rem ;
 }
 
-ul li a{
+.li{
+    display: inline-block;
+    list-style: none;
+ }
+.ul  .a .li{
     position: relative;
     background: #019712;
     color: #ffffff;
@@ -70,22 +72,22 @@ ul li a{
     border-radius: 10px;
 }
 
-ul li a:hover{
+.ul  .a .li:hover{
     letter-spacing: 0.2em;
-    background: var(--color);
+    background: #fd1605;
     color:#0e0e0d ;
-    box-shadow: 0 0 35px var(--color);
+    box-shadow: 0 0 35px #fd1605;
     border-radius: 10px;
 }
 
-ul li a:active{
+.ul  .a .li:active{
     letter-spacing: 0.1em;
     padding: 5px 10px;
     background: #ffffff;
     box-shadow: 0 0 30px #ffffff;
 }
 
-ul li a::before{
+.ul  .a .li::before{
 	content: '';
 	position: absolute;
 	inset: 2px;
@@ -93,19 +95,19 @@ ul li a::before{
     border-radius: 10px;
 }
 
-ul li a span{
+.ul  .a .li span{
 	position: relative;
 	z-index: 1;
 }
-ul li a i{
+.ul  .a .li  i{
 	position: absolute;
 	inset: 0;
 	display: block;
 }
-ul li a i::before{
+.ul  .a .li i::before{
 	content: '';
 	position: absolute;
-	border: 2px solid var(--color);
+	border: 2px solid #fd1605;
 	top: -3.5px;
 	left: 80%;
 	width: 10px;
@@ -115,15 +117,15 @@ ul li a i::before{
 	transition: 0.5s;
 
 }
-ul li a:hover i::before{
+.ul  .a .li:hover i::before{
 	width: 20px;
 	left: 20%;
 }
 
-ul li a i::after{
+.ul  .a .li i::after{
 	content: '';
 	position: absolute;
-	border: 2px solid var(--color);
+	border: 2px solid #fd1605;
 	bottom: -3.5px;
 	left: 20%;
 	width: 10px;
@@ -132,83 +134,83 @@ ul li a i::after{
 	background: #0cdb24;
 	transition: 0.5s;
 }
-ul li a:hover i::after{
+.ul  .a .li:hover i::after{
 	width: 20px;
 	left: 80%;
 }
 
-ul li a:active i::before{
+.ul  .a .li:active i::before{
      content: none;
     
 }
-ul li a:active i::after{
+.ul  .a .li:active i::after{
     content: none;
     
 }
 
-.sbr:hover{
+.ul  .a .sbr:hover{
     background: #c40183;
     box-shadow: 0 0 35px #c40183;
     
 }
-.sbr i::before{
+.ul  .a .sbr i::before{
 	border: 2px solid #c40183;
 }
-.sbr i::after{
+.ul  .a .sbr i::after{
 	border: 2px solid #c40183;
 }
-.sbr:active{
+.ul  .a .sbr:active{
     letter-spacing: 0.1em;
     padding: 5px 10px;
     background: #ffffff;
     box-shadow: 0 0 30px #ffffff;
 }
 
-.pry:hover{
+.ul  .a .pry:hover{
     background: #640092;
     box-shadow: 0 0 35px #640092;
 }
-.pry i::before{
+.ul  .a .pry i::before{
 	border: 2px solid #640092;
 }
-.pry i::after{
+.ul  .a .pry i::after{
 	border: 2px solid #640092;
 }
-.pry:active{
+.ul  .a .pry:active{
     letter-spacing: 0.1em;
     padding: 5px 10px;
     background: #ffffff;
     box-shadow: 0 0 30px #ffffff;
 }
 
-.cert:hover{
+.ul  .a .cert:hover{
     background: #ff8800;
     box-shadow: 0 0 35px #ff8800;
 }
-.cert i::before{
+.ul  .a .cert i::before{
 	border: 2px solid #ff8800;
 }
-.cert i::after{
+.ul  .a .cert i::after{
 	border: 2px solid #ff8800;
 }
-.cert:active{
+.ul  .a .cert:active{
     letter-spacing: 0.1em;
     padding: 5px 10px;
     background: #ffffff;
     box-shadow: 0 0 30px #ffffff;
 }
 
-.cont:hover{
+.ul  .a .cont:hover{
     background: #fbff00d5;
     box-shadow: 0 0 35px #fbff00d5;
 }
-.cont i::before{
+.ul  .a .cont i::before{
 	border: 2px solid #fbff00d5;
 }
-.cont i::after{
+.ul  .a .cont i::after{
 	border: 2px solid #fbff00d5;
 }
-.cont:active{
+.ul  .a .cont:active{
     letter-spacing: 0.1em;
     padding: 5px 10px;
     background: #ffffff;
@@ -326,19 +328,19 @@ section p{
       margin-left: 30%;
      
     }
-    li{
+    .li{
         padding: 1.1rem;
     }
-      ul li a{
+      .ul  .a .li{
           font-size: .8rem;
           padding: 10px 13px;
           border-radius: 8px;
       }
-      ul li a:hover{
+      .ul  .a .li:hover{
   
           border-radius: 8px;
       }
-      ul li a::before{
+      .ul  .a .li::before{
           border-radius: 8px;
       }
 }
@@ -358,11 +360,10 @@ section p{
         height: 240px;
       }
       nav{
-         
         margin-top: 1.5rem;
         margin-left: 26%;  
     }
-    li{
+    .a{
         padding: .8rem;
     }
 
@@ -401,21 +402,20 @@ section p{
   nav{
       margin-left: 25%;
       width: 70%;
-    
   }
-  li{
+  .a{
       padding: 1rem;
   }
-    ul li a{
+    .ul  .a .li{
         font-size: .7rem;
         padding: 8px 12px;
         border-radius: 7px;
     }
-    ul li a:hover{
+    .ul  .a .li:hover{
 
         border-radius: 8px;
     }
-    ul li a::before{
+    .ul  .a .li::before{
         border-radius: 7px;
     }
 /*********Fin***********/
@@ -431,6 +431,7 @@ section p{
  @media all and (max-width:924px) {
     .header{
         height: 5.7rem;
+       
     }
     .opacidad{
         height: 5.2rem;
@@ -444,16 +445,16 @@ section p{
     }
     /**Botones de la barra de navegacion ***/
 
-    li{
+    .a{
         padding: 0.7rem;
     }
-    ul li a{
+    .ul  .a .li{
         font-size: .6rem;
     }
     /*********Fin***********/
  }
 
- @media all and  (max-width:752px){
+ @media all and  (max-width:780px){
     h1{
         visibility: hidden;
       }
@@ -500,57 +501,20 @@ section p{
 
 
 
- @media all and (max-width:560px) {
-
-    /**Botones de la barra de navegacion ***/
-    nav{
-        margin-left: 0;
-        margin-top: 15px;
-        width: 100%;
-    }
-    li{
-        padding: .4rem;
-    }
-    ul li a{
-        font-size: .6rem;
-        padding: 7px 11px;
-        border-radius: 6px;
-        font-family: 'lato';
-    }
-    ul li a:hover{
-
-        border-radius: 6px;
-    }
-    ul li a::before{
-        border-radius: 6px;
-    }
-    /*********Fin***********/
-    .header{
-        height: 4.5rem;
-    }
-
-    .opacidad{
-        height: 4rem;
-    }
- }
-
- @media all and (max-width:465px) {
+ 
+ @media all and (max-width:580px) {
 
    nav{
-    margin-left: 10%;
-    margin-top: 5px;
-    width: 80%;
-    }
-    li{
-        padding: .6rem;
+    margin-left: 5%;
+    margin-top: 12px;
+    width: 90%;
     }
 
     .header{
-        height:6rem;
+        height:4.5rem;
     }
-
     .opacidad{
-        height: 5.5rem;
+        height: 4rem;
 }
    .maquina_escribir{
     font-size: .7rem;
@@ -561,71 +525,63 @@ section p{
         height: 120px;
         margin-left: 63%;
     }
+    .ul  .a .li{
+       visibility: hidden;
+    }
+    .home, .user, .proyect{
+        width: 30px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+    }
+    .home{
+        background-image: url('./../images/home.png');
+    }
+    .home:hover{
+        background-image: url('./../images/home1.png');
+    }
+    .user{
+        background-image: url('./../images/user.png');
+    }
+    .user:hover{
+        background-image: url('./../images/user1.png');
+    }
+    .proyect{
+        background-image: url('./../images/proyect.png');
+    }
+    .proyect:hover{
+        background-image: url('./../images/proyect1.png');
+    }
+    .home:active, .user:active, .proyect:active{
+        background-size: 26px 26px;
+    }
 
+    .certifi, .contact{
+        width: 40px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-size: 40px 40px;
+    }
+    .certifi{
+        background-image: url('./../images/certifi.png');
+    }
+    .certifi:hover{
+        background-image: url('./../images/certifi2.png');
+    }
+    .contact{
+        background-image: url('./../images/contact.png');
+    }
+    .contact:hover{
+        background-image: url('./../images/contact1.png');
+    }
+    .certifi:active, .contact:active{
+        background-size: 36px 36px;
+    }
+
+   .ul {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-around;
+   }
 }
-
-
-@media all and (max-width:345px) {
-
-
-    nav{
-     margin-left: 5%;
-     margin-top: 10px;
-     width: 90%;
-
-    }
-    li{
-        padding: .4rem;
-    }
-
-    .header{
-        height:5.8rem;
-    }
-    
-    .opacidad{
-        height: 5.3rem;
-    }
-    .maquina_escribir{
-        font-size: .5rem;
-      }
-
-      .ilustracion{
-        margin-top: 9rem;
-        width: 90px;
-        height: 90px;
-        margin-left: 64%;
-    }
-
- }
-
- @media all and (max-width:290px) {
-
-
-    nav{
-     margin-left: 5%;
-     margin-top: 10px;
-     width: 90%;
- 
-    }
-    li{
-        padding: .3rem;
-    }
-
-    .header{
-        height:5.8rem;
-    }
-    
-    .opacidad{
-        height: 5.3rem;
-    }
-
-      .ilustracion{
-        margin-top: 8rem;
-        margin-left: 50%;
-    }
-    .h2,section p{
-        font-size: .8rem;
-        margin-left: 2%;
-     
-      }
- }

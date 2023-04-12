@@ -2,6 +2,8 @@ import estilosProyectos from "../assets/css/proyectos.module.css"
 import { SliderTomala} from "./SliderTomala";
 import {Tecnologias} from "./Tecnologias";
 import gitHub from "../assets/images/svg/github.svg";
+import {Tecnologias_dos} from "./Tecnologias_dos";
+import {SliderJuego} from "./SliderJuego";
 
 export function Proyectos(){
    
@@ -10,7 +12,7 @@ export function Proyectos(){
 
          <h2 className={estilosProyectos.h2}>Proyectos</h2>
 
-         <div className={estilosProyectos.cajapadre}>
+         <div className={`${estilosProyectos.cajapadre} ${estilosProyectos.cajapadrejuego}`}>
 
          {/*-----------contenido del primer proyecto "Tomala"-------------*/}
               <div className={estilosProyectos.caja} id="proyect1">
@@ -24,8 +26,9 @@ export function Proyectos(){
                 <div className={estilosProyectos.ccc}> 
                     <SliderTomala/>
                     <Tecnologias/>
-                    <a href="#" className={estilosProyectos.visitar}>Visitar</a>
-                    <a href="https://github.com/Fernandezjuandiego95/I.E.T.A-Tomala" className={estilosProyectos.ihub}> 
+                    {/**El link de visita esta invisible, si quieres dar visivilidad hazlo en el css */}
+                    <a href="#" className={`${estilosProyectos.visitar} ${estilosProyectos.ver}`}>Visitar</a>
+                    <a href="https://github.com/Fernandezjuandiego95/I.E.T.A-Tomala" target="_blank" rel="noopener" className={estilosProyectos.ihub}> 
                     <img src={gitHub} alt="GitHub" className={estilosProyectos.redesimg}/>
                     </a>
                 </div>
@@ -45,15 +48,22 @@ export function Proyectos(){
                 <br/><br/><br/><br/><br/><br/>
              
               {/*------------------contenido del segundo proyecto-----------------*/}
-              <div className={estilosProyectos.caja} id="proyect2">
-                  <div>
+              <div className={`${estilosProyectos.caja} ${estilosProyectos.cajajuego}`} id="proyect2">
 
-                  {
-                  //trabajar aqui
-                  }
-
-                  </div>
-                  <div className={estilosProyectos.divflechas}>
+                <span className={estilosProyectos.titulo}>
+                    <i>PROYECTO PEROSNAL:</i> Juego De Memoria.
+                </span>
+                <div className={estilosProyectos.ccc}>
+                    <SliderJuego/>
+                    <Tecnologias_dos/>
+                    <a href="https://fernandezjuandiego95.github.io/proyectoJuegoMemory.github.io/index.html" target="_blank" rel="noopener"
+                     className={`${estilosProyectos.visitar} ${estilosProyectos.visitarjuego}`}>Visitar</a>
+                    <a href="https://github.com/Fernandezjuandiego95/proyectoJuegoMemory.github.io" target="_blank" rel="noopener"
+                     className={`${estilosProyectos.ihub} ${estilosProyectos.ihubjuego}`}> 
+                    <img src={gitHub} alt="GitHub" className={estilosProyectos.redesimg}/>
+                    </a>
+                </div>
+                  <div className={`${estilosProyectos.divflechas} ${estilosProyectos.divflechasjuego}`}>
                       <a href="#proyect1">
                          <span className={estilosProyectos.flechaIzquierda}></span>
                       </a>

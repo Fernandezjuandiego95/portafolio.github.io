@@ -23,6 +23,12 @@ u{
     border-radius: 50%;
 	background-color: #fd4305;
 }
+.u_dos{
+    margin-left: -6rem;
+}
+.text_dos{
+    margin-left: -4.5rem;
+}
 
 .blue{
     background-color: rgb(0, 81, 255);
@@ -36,8 +42,22 @@ u{
     background-color: rgb(243, 243, 0);
 }
 
+.gradient{
+    background: rgb(254,167,16);
+    background: linear-gradient(0deg, rgba(254,167,16,1) 25%, rgba(105,178,254,1) 100%); 
+}
+
+@media all and (max-width:980px){
+.u_dos{
+    margin-left: -6rem;
+}
+.text_dos{
+    margin-left: -4.5rem;
+}
+}
+
 @media all and (max-width:900px){
-    u, .text{ 
+    u, .text, .u_dos, .text_dos{ 
         position: relative;
         margin-top: 10px;
         margin-left: 0px;
@@ -51,6 +71,10 @@ u{
         margin-top: 5.8rem;
         margin-left: 10px;
         position: absolute;
+    }
+
+    .divtec_dos{
+        margin-top: 4rem;
     }
     
 }
@@ -67,6 +91,10 @@ u{
     .divtec{
         margin-top: 7.5rem;
     }
+
+    .divtec_dos{
+        margin-top: 4rem;
+    }
 }
 
 @media all and (max-width:600px){
@@ -74,12 +102,10 @@ u{
     u{
         width: 10px;
         height: 10px;
-     
     }
-
 }
 
-@media all and (max-width:495px){
+@media all and (max-width:500px){
 
     u{
         width: 8px;
@@ -90,6 +116,10 @@ u{
     }
     .divtec{
         margin-top: 9rem;
+    }
+
+    .divtec_dos{
+        margin-top: 3rem;
     }
 
 }
@@ -103,6 +133,9 @@ u{
         margin-top: 11rem;
         margin-left: 20px;
     }
+    .divtec_dos{
+        margin-top: 5rem;
+    }
 
 }
 
@@ -112,4 +145,7 @@ u{
         margin-top: 23.4rem;
     }
 
+    .divtec_dos{
+        margin-top: 5rem;
+    }
 }

@@ -5,8 +5,8 @@
 }
 
 .div{
-    width: 90%;
-    height: 80%;
+    width: 88%;
+    height: 75%;
     overflow: hidden;
     margin-left: 1%;
     margin-top: 5rem;
@@ -25,8 +25,8 @@
 
 .imagen{
     width: 100%;
-    height:70%;
-    margin-top: -20px;
+    height:67%;
+    margin-top: 0px;
     border-radius: 5px;
 }
 
@@ -70,8 +70,7 @@
         height: 75%;
     }
     .imagen{
-        height: 95%;
-        margin-top: -15px;
+        height: 90%;
     }
 }
 
@@ -82,7 +81,7 @@
        width: 98%;
    }
    .imagen{
-       height: 80%;
+       height: 75%;
    }
 }
 
@@ -91,7 +90,7 @@
         height: 60%;
     }
     .imagen{
-        height: 90%;
+        height: 84%;
     }
  }
 
@@ -102,7 +101,7 @@
  
  }
 
- @media all and (max-width:495px){
+ @media all and (max-width:500px){
     .div{
         margin-top: 12rem;
         height: 50%;

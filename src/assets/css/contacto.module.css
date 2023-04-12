@@ -408,7 +408,7 @@ input:focus{
     .divmensaje{
         width: 90%;
         margin-top: 2rem;
-        margin-left: .8rem;
+        margin-left: .9rem;
         height: 800px;
     }
     .input{
@@ -433,9 +433,7 @@ input:focus{
 
 @media all and (max-width:400px) {
 
-    .h2,.h2:hover{
-      margin-left: 27%;
-    }
+   
     .divmensaje{
         width: 90%;
     }
@@ -454,5 +452,6 @@ input:focus{
      }
     .divllamada{
         width: 90%;
+        margin-left: 2%;
     }
 }
