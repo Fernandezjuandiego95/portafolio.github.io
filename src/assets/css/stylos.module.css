@@ -584,4 +584,8 @@ section p{
        align-items: center;
        justify-content: space-around;
    }
+
+   .maquina_escribir, section p{
+    font-family: 'lato';
+   }
 }
