@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portafolio.github.io/static/css/main.e7446af4.css",
+    "main.js": "/portafolio.github.io/static/js/main.636ea993.js",
+    "static/media/tomala3.png": "/portafolio.github.io/static/media/tomala3.7a8693fb914882b05e12.png",
+    "static/media/tomala6.png": "/portafolio.github.io/static/media/tomala6.937cf3e924e4e6cc256f.png",
+    "static/media/tomala5.png": "/portafolio.github.io/static/media/tomala5.25d061fa34f9aaaee667.png",
+    "static/media/tomala1.png": "/portafolio.github.io/static/media/tomala1.3486088572dd55dd6b48.png",
+    "static/media/tomala2.png": "/portafolio.github.io/static/media/tomala2.a670b3046a2ffc965855.png",
+    "static/media/juego3.png": "/portafolio.github.io/static/media/juego3.33bb2e1539047e9d6b52.png",
+    "static/media/juego5.png": "/portafolio.github.io/static/media/juego5.9517f29a2b2c99f746b9.png",
+    "static/media/yo.jpg": "/portafolio.github.io/static/media/yo.9f7a2305934bf9df7d51.jpg",
+    "static/media/juego2.png": "/portafolio.github.io/static/media/juego2.f710034835477ab21d73.png",
+    "static/media/tomala4.png": "/portafolio.github.io/static/media/tomala4.16230b073c9c87388593.png",
+    "static/media/juego4.png": "/portafolio.github.io/static/media/juego4.82759c7898e0d2dcc8cc.png",
+    "static/media/juego1.png": "/portafolio.github.io/static/media/juego1.d634cf71441329a3ee8d.png",
+    "static/media/figma.png": "/portafolio.github.io/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/scrum.jpg": "/portafolio.github.io/static/media/scrum.2e37781fdd732da6f15b.jpg",
+    "static/media/git_y_github.PNG": "/portafolio.github.io/static/media/git_y_github.c70e71d36360e50f000e.PNG",
+    "static/media/js.png": "/portafolio.github.io/static/media/js.47d9cc3d1388560f4dd7.png",
+    "static/media/fundaSoft.PNG": "/portafolio.github.io/static/media/fundaSoft.bc26ca2ae889b17a95e0.PNG",
+    "static/media/php_con_laravel.jpg": "/portafolio.github.io/static/media/php_con_laravel.336e86a45f3801e0fd30.jpg",
+    "static/media/fondo.png": "/portafolio.github.io/static/media/fondo.bf1d2f208f11787834cc.png",
+    "static/media/Yoda.jpg": "/portafolio.github.io/static/media/Yoda.f55cffdcdee67c81ec13.jpg",
+    "static/media/coding_red.svg": "/portafolio.github.io/static/media/coding_red.6101a1233854b3e40d5f334ab3584f68.svg",
+    "static/media/github.svg": "/portafolio.github.io/static/media/github.2313f6066f27488414053abdb5325607.svg",
+    "index.html": "/portafolio.github.io/index.html",
+    "main.e7446af4.css.map": "/portafolio.github.io/static/css/main.e7446af4.css.map",
+    "main.636ea993.js.map": "/portafolio.github.io/static/js/main.636ea993.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7446af4.css",
+    "static/js/main.636ea993.js"
+  ]
+}
